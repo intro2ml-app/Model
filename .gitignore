@@ -1,0 +1,63 @@
+# Ignore system files and folders
+*.log
+Thumbs.db
+ehthumbs.db
+
+# Ignore Python-specific files and folders
+.__pycache__
+*.pyc
+*.pyo
+dist/
+build/
+egg-info/
+venv/
+
+# Ignore package installation files
+*.egg-info
+pip-requirements.txt
+
+# Ignore data and model files
+*.model
+*.weights
+*.npy
+*.h5
+*.pth
+*.pt
+
+# Ignore intermediate build artifacts
+*.cache
+tmp/
+
+# Ignore IDE and development tools
+ide-project/
+*.[iI]temcfg
+*.[dD]ebugsettings.json
+*.vscode/
+*.idea/
+
+# Ignore test files and folders
+*_test.py
+*_test__.py
+test/
+*_test_case.py
+
+# Ignore coverage reports and other analysis output
+coverage.xml
+CoverageReport.txt
+coveragereport.txt
+
+# Ignore Docker and container-related files
+Dockerfile
+docker-compose.yml
+.Dockerenv
+dockerrun.sh
+
+# Ignore build and deployment scripts
+build.sh
+deploy.sh
+requirements.sh
+
+# Ignore environment variables and settings files
+.env
+settings.json
+config.py
