@@ -6,6 +6,5 @@ sentence-transformers
 psycopg2
 requests
 beautifulsoup4
-concurrent
+futures
 langchain
-logging
