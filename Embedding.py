@@ -92,6 +92,65 @@ class EmbeddingDatabase:
         if self.conn:
             self.conn.close()
 
+    def table_exists(self, table_name=None):
+        """
+        Checks if a table exists in the database.
+        
+        Args:
+            table_name (str): Name of the table to check. Defaults to the collection_name attribute.
+            
+        Returns:
+            bool: True if the table exists, False otherwise.
+        """
+        table_name = table_name or self.collection_name
+        self.cur.execute("""
+            SELECT EXISTS (
+                SELECT 1 
+                FROM information_schema.tables 
+                WHERE table_name = %s
+            );
+        """, (table_name,))
+        return self.cur.fetchone()[0]
+
+    def blog_exists(self, title):
+        """
+        Checks if a blog with the given title exists in the collection.
+
+        Args:
+            title (str): The title of the blog to check.
+
+        Returns:
+            bool: True if the blog exists, False otherwise.
+        """
+        self.cur.execute(f"""
+            SELECT EXISTS (
+                SELECT 1 
+                FROM {self.collection_name}
+                WHERE title = %s
+            );
+        """, (title,))
+        return self.cur.fetchone()[0]
+
+    def delete_blog(self, title):
+        """
+        Deletes a blog with the given title from the collection.
+
+        Args:
+            title (str): The title of the blog to delete.
+
+        Returns:
+            str: Success message if the blog is deleted, or an error message if not found.
+        """
+        if self.blog_exists(title):
+            self.cur.execute(f"""
+                DELETE FROM {self.collection_name}
+                WHERE title = %s;
+            """, (title,))
+            self.conn.commit()
+            return f"Blog with title '{title}' has been successfully deleted."
+        else:
+            return f"Blog with title '{title}' does not exist."
+
 if __name__ == "__main__":
     # Load environment variables
     embedding_model_name = os.getenv('EMBEDDING_MODEL')
@@ -110,6 +169,7 @@ if __name__ == "__main__":
     news_links = crawler.crawl(5)
     
     for url in news_links:
+        print(f"Processing URL: {url}")
         page_content = webparser.parse_webpage(url)
         text_chunks = textsplitter.get_text_chunks(page_content['content'])
 
