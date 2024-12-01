@@ -1,0 +1,49 @@
+﻿ID,Khoa,Tên,Trưởng BM
+TGMT,CNTT,Thị giác máy tính và điều khiển học thông minh,PGS. TS. Lý Quốc Ngọc
+CNTTh,CNTT,Công nghệ tri thức,PGS. TS. Nguyễn Đình Thúc
+KHMT,CNTT,Khoa học máy tính,GS. TS. Lê Hoài Bắc
+CNPM,CNTT,Công nghệ phần mềm,PGS. TS. Nguyễn Văn Vũ
+MMT,CNTT,Mạng máy tính và viễn thông,TS. Trần Trung Dũng
+HTTT,CNTT,Hệ thống thông tin,TS. Phạm Nguyễn Cương
+VLTH,VL,Vật lý tin học,PGS.TS. Huỳnh Văn Tuấn
+VLLT,VL,Vật lý lý thuyết,TS. Vũ Quang Tuyên
+VLHN,VL,Vật lý hạt nhân - KTHN - VLYK,PGS.TS. Trần Thiện Thanh
+VLCR,VL,Vật lý chất rắn,PGS.TS. Trần Quang Trung
+VLUD,VL,Vật lý ứng dụng,PGS.TS. Lê Vũ Tuấn Hùng
+VLDT,VL,Vật lý điện tử,TS. Nguyễn Chí Nhân
+VLDC,VL,Vật lý địa cầu,PGS.TS. Lê Văn Anh Cường
+HDKTTV,VL,Hải dương - Khí tượng - Thủy văn,PGS.TS. Võ Lương Hồng Phước
+THKS,DC,Thạch học và Khoáng sản,PGS. TS. Phạm Trung Hiếu
+TVCT,DC,Địa chất Thủy văn - Địa chất Công trình,TS. Ngô Minh Thiện
+BDK,DC,Địa chất Biển và Dầu khí,TS. GVC. Lê Đức Phúc
+DCCS,DC,Địa chất cơ sở,TS. Nguyễn Thị Tố Ngân
+DT,DTVT,Điện tử,TS. Lê Đức Hùng
+MTHTN,DTVT,Máy tính - Hệ thống nhúng,TS. Huỳnh Hữu Thuận
+VTM,DTVT,Viễn thông - Mạng,TS. Đặng Lê Khoa
+KHMTr,MT,Khoa học môi trường,PGS.TS. Vũ Văn Nghị
+QLTHMT,MT,Quản lý - Tin học môi trường,PGS.TS. Đào Nguyên Khôi
+CNKT,MT,Công nghệ Kỹ thuật Môi trường,PGS.TS. Tô Thị Hiền
+VLNP,CNVL,Vật liệu Nano & Màng mỏng,TS. Phạm Kim Ngọc
+VLPC,CNVL,Vật liệu Polymer & Composite,PGS. TS. Hoàng Thị Đông Quý
+VLTY,CNVL,Vật liệu Từ & Y sinh,PGS. TS. Trần Thị Thanh Vân
+HHC,HH,Hóa Hữu cơ,PGS. TS. Trần Hoàng Phương
+HVC,HH,Hóa Vô cơ và ứng dụng,PGS. TS. Lê Tiến Khoa
+HPT,HH,Hóa Phân tích,PGS. TS. Nguyễn Văn Đông
+HL,HH,Hóa Lý,PGS. TS. Nguyễn Thái Hoàng
+HP,HH,Hóa Polyme,PGS. TS. Hoàng Ngọc Cường
+HD,HH,Hóa Dược,GS.TS. Nguyễn Thị Thanh Mai
+DTr,SH,Di truyền,TS. Nguyễn Thụy Vy
+VS,SH,Vi sinh,PGS. TS. Nguyễn Đức Hoàng
+Sho,SH,Sinh hóa,PGS. TS. Ngô Đại Nghiệp
+SLTV,SH,Sinh lý thực vật,PGS.TS. Trần Thanh Hương
+PTMT,SH,CNSH Phân tử & Môi trường,GS.TS. Trần Linh Thước
+TVSH,SH,CNSH Thực vật & Chuyển hóa sinh học,ThS. Trần Quốc Tân
+DVSH,SH,Sinh lý học - CNSH Động vật,PGS. TS. Trần Lê Bảo Hà
+SHTH,SH,Sinh thái - Sinh học tiến hóa,TS. Nguyễn Xuân Minh Ái
+GT,TTH,Giải tích,PGS. TS. Lý Kim Hà
+XSTK,TTH,Xác suất thống kê,GS. TS. Đặng Đức Trọng
+TUHT,TTH,Tối ưu và Hệ thống,PGS. TS. Nguyễn Lê Hoàng Anh
+CH,TTH,Cơ học,TS. Vũ Đỗ Huy Cường
+GDTH,TTH,Giáo dục toán học,TS. Tạ Thị Nguyệt Nga
+DS,TTH,Đại số,GS.TS. Mai Hoàng Biên
+UDTH,TTH,Ứng dụng tin học,PGS.TS. Nguyễn Thanh Bình
