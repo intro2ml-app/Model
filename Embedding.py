@@ -8,6 +8,9 @@ import os
 from dotenv import load_dotenv
 from LinkCrawler import HCMUSLinkCrawler
 from utils import saveJson, checkJsonExisted, find_txt_files
+from links import parsed_links
+import json
+import os
 
 load_dotenv()
 
@@ -162,67 +165,63 @@ if __name__ == "__main__":
     embedding_db = EmbeddingDatabase(embedding_model_name, connection_string, "text_embeddings")
     
     # Optional: Reset the table
-    # embedding_db.delete_embeddings_table()
-    # embedding_db.create_embeddings_table()
+    embedding_db.delete_embeddings_table()
+    embedding_db.create_embeddings_table()
 
     crawler = HCMUSLinkCrawler()
-    # news_links = crawler.crawl(5)
-    from links import parsed_links
-    news_links = parsed_links
-    added_links = []
-    
-    # for url in news_links:
-    #     print(f"Processing URL: {url}")
-    #     page_content = webparser.parse_webpage(url)
-    #     print(f"Parsing content: {page_content.get('title')}")
-    #     if url in added_links:
-    #         print(f"URL {url} already exists, skipping this data")
-    #         continue
-    #     added_links.append(url)
+    # news_links = crawler.crawl(10)
 
-    #     text_chunks = textsplitter.get_text_chunks(page_content['content'])
-
-    #     embeddings_text = embedding_db.model.encode(text_chunks)
-    #     embedding_db.store_embeddings(text_chunks, embeddings_text, 
-    #                                 source=url, title=page_content.get('title', ''),
-    #                                 source_date=page_content.get('date'))
-    #     print("\n")
-    
-    # folder_path = "Data"
-    # txt_files = find_txt_files(folder_path)
-
-    # for file_path in txt_files:
-    #     print(f"Processing file: {file_path}")
-    #     with open(file_path, "r", encoding="utf-8") as file:
+    # if news_links != []:
+    #     with open('links.txt', 'r') as file:
     #         text = file.read()
-    #         text_chunks = textsplitter.get_text_chunks(text)
-    #         embeddings_text = embedding_db.model.encode(text_chunks)
-    #         embedding_db.store_embeddings(text_chunks, embeddings_text, source=file_path, title=os.path.basename(file_path))
-    #     print("\n")
+    #         parsed_links = text.split('\n')
 
-    # import json
-    # # get all json files in a folder
-    # folder = "Data/Decuongmonhoc"
-    # json_files = [f for f in os.listdir(folder) if f.endswith('.json')]
-    # for file in json_files:
-    #     print(f"Processing file: {file}")
-    #     with open(os.path.join(folder, file), 'r', encoding="utf-8") as f:
-    #         data = json.load(f)
-    #         text_chunks = textsplitter.get_text_chunks(data['content'])
-    #         embeddings_text = embedding_db.model.encode(text_chunks)
-    #         embedding_db.store_embeddings(text_chunks, embeddings_text, source=file, title="Đề cương tóm tắt của môn " + data["course_name"], source_date=None)
-    #     print("\n")
+    #     for url in news_links:
+    #         if url in parsed_links:
+    #             continue
+    #         else:
+    #             print(f"Adding URL: {url}")
+    #             parsed_links.append(url)
 
-    # Query similar texts
-    query_text = "Học phí học kỳ 1 năm học 2024-2025 đối với sinh viên hệ chính quy chương trình đại trà"
-    results = embedding_db.query_similar_texts(query_text, top_n=5)
-    results.sort(key=lambda x: x['similarity'], reverse=True)
-    # print(f"ID: {results[0]['id']}, Text: {results[0]['text_chunk']}, Similarity: {results[0]['similarity']}", end='\n\n')
-    for i in range(3):
-        print(f"ID: {results[i]['id']}, Similarity: {results[i]['similarity']}")
-        print(f"Text: {results[i]['text_chunk']}")
+    #     with open('links.txt', 'w') as file:
+    #         file.write('\n'.join(parsed_links))
+    
+    for url in parsed_links:
+        print(f"Processing URL: {url}")
+        page_content = webparser.parse_webpage(url)
+        print(f"Parsing content: {page_content.get('title')}")
+        text_chunks = textsplitter.get_text_chunks(page_content['content'])
+
+        embeddings_text = embedding_db.model.encode(text_chunks)
+        embedding_db.store_embeddings(text_chunks, embeddings_text, 
+                                    source=url, title=page_content.get('title', ''),
+                                    source_date=page_content.get('date'))
         print("\n")
     
+
+    folder_path = "Data"
+    # Embedding all txt files in the folder
+    txt_files = find_txt_files(folder_path)
+    for file_path in txt_files:
+        print(f"Processing file: {file_path}")
+        with open(file_path, "r", encoding="utf-8") as file:
+            text = file.read()
+            text_chunks = textsplitter.get_text_chunks(text)
+            embeddings_text = embedding_db.model.encode(text_chunks)
+            embedding_db.store_embeddings(text_chunks, embeddings_text, source=file_path, title=os.path.basename(file_path))
+        print("\n")
+
+    # Embedding all json files in the folder
+    folder = "Data/Decuongmonhoc"
+    json_files = [f for f in os.listdir(folder) if f.endswith('.json')]
+    for file in json_files:
+        print(f"Processing file: {file}")
+        with open(os.path.join(folder, file), 'r', encoding="utf-8") as f:
+            data = json.load(f)
+            text_chunks = textsplitter.get_text_chunks(data['content'])
+            embeddings_text = embedding_db.model.encode(text_chunks)
+            embedding_db.store_embeddings(text_chunks, embeddings_text, source=file, title="Đề cương tóm tắt của môn " + data["course_name"], source_date=None)
+        print("\n")
 
     # Close connection
     embedding_db.close_connection()

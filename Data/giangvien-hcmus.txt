@@ -135,7 +135,7 @@ TS. Trần Anh Tuấn (A) có email là tratuan@hcmus.edu.vn thuộc khoa Toán 
 ThS. Lê Thị Tuyết Nhung có email là lttnhung@hcmus.edu.vn thuộc khoa Toán Tin Học,
 ThS. Lý Như Bình có email là lnbinh@hcmus.edu.vn thuộc khoa Toán Tin Học,
 ThS. Nguyễn Thị Kiều Trang có email là ntktrang@hcmus.edu.vn thuộc khoa Toán Tin Học,
-ThS. Huỳnh Thanh có email là Sơn,huynhthanh98vn@gmail.com thuộc khoa Toán Tin Học,
+ThS. Huỳnh Thanh có email là huynhthanh98vn@gmail.com thuộc khoa Toán Tin Học,
 TS. Trần Nam Dũng có email là tndung@hcmus.edu.vn thuộc khoa Toán Tin Học,
 ThS. Châu Thị Hiếu có email là cthieu@hcmus.edu.vn thuộc khoa Toán Tin Học,
 ThS. Đinh Thị Kim Liên có email là dtklien@hcmus.edu.vn thuộc khoa Toán Tin Học,

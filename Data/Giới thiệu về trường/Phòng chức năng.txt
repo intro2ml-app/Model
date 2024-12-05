@@ -1,35 +1,46 @@
 https://hcmus.edu.vn/phong-chuc-nang/
 PHÒNG CHỨC NĂNG:
 
+Phòng công tác sinh viên
 - Trưởng phòng: ThS. Nguyễn Thị Ngọc Hân  
   Phó Trưởng phòng: ThS. Nguyễn Thị Thắm, ThS. Trần Quốc Đạt  
 
+Phòng đào tạo
 - Trưởng phòng: TS. Trần Thái Sơn  
   Phó Trưởng phòng: ThS. Lê Văn Lai, ThS. Phạm Thị Thuận  
 
+Phòng đào tạo sau đại học
 - Trưởng phòng: PGS.TS Nguyễn Tuyết Phương  
   Phó Trưởng phòng: TS. Nguyễn Xuân Vinh  
 
+Phòng kế hoạch - tài chính
 - Trưởng phòng: ThS. Phan Ngô Hoang  
   Phó Trưởng phòng: ThS. Nguyễn Thị Cẩm Loan, CN. Hoàng Văn Hiệp  
 
+Phòng khảo thí - đảm bảo chất lượng
 - Trưởng phòng: TS. Trịnh Thanh Đèo  
   Phó Trưởng phòng: ThS. Nguyễn Thiện Triều  
 
+Phòng khoa học công nghệ
 - Trưởng phòng: PGS.TS Trần Văn Mẫn  
   Phó Trưởng phòng: TS. Nguyễn Hoàng Chương  
 
+Phòng quan hệ đối ngoại
 - Trưởng phòng: PGS.TS Ngô Đại Nghiệp  
   Phó Trưởng phòng: TS. Võ Hồng Hải  
 
+Phòng quản trị thiết bị
 - Trưởng phòng: ThS. Lê Thị Nga  
   Phó Trưởng phòng: ThS. Nguyễn Thị Thanh Lợi, ThS. Nguyễn Văn Tịnh, CN. Trần Đình Giang  
 
+Phòng Thanh tra pháp chế
 - Trưởng phòng: ThS. Hà Minh Ninh  
   Phó Trưởng phòng: ThS. Trương Quan Thế  
 
+Phòng Thông tin truyền thông
 - Trưởng phòng: ThS. Trần Tuấn Phương  
   Phó Trưởng phòng: ThS. Hoàng Thanh Tú, CN. Nguyễn Nhật Tài  
 
+Phòng tổ chức hành chinh
 - Trưởng phòng: ThS. Phùng Quán  
   Phó Trưởng phòng: ThS. Nguyễn Thị Kim Chi, ThS. Phùng Lê Cang
