@@ -29,9 +29,9 @@ for course in courses:
         course = course[2:]
     # print(course)
     course_id = course[:11]
-    course_id = course_id.replace(" ", "").replace("–", "")
+    course_id = course_id.replace(" ", "").replace("-", "")
 
-    course_name = course.split(" – ")[1]
+    course_name = course.split(" - ")[1]
     course_name = course_name.strip()
     course_name = course_name.replace(".", "")
     course_name = course_name.split(" ")[:-1]

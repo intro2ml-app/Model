@@ -48,7 +48,7 @@ Chương trình Việt - Pháp CNTT với tổ hợp môn xét tuyển A00, A01,
 
 -Câu hỏi: Cho em hỏi chương trình liên kết Quốc tế của trường ngành CNTT liên kết với ĐH AUT, New Zealand và ngành Khoa học Quản lý, Keuka, Hoa Kỳ xét tuyển & chỉ tiêu ra sao? Có học bổng đầu vào hay không?
 Trả lời: Hai ngành đào tạo với cơ hội nhận học bổng đầu vào với tổng trị giá lên đến 500 triệu đồng:
-1. Công nghệ Thông tin – chuyên ngành Khoa học Dịch vụ & Kỹ thuật phần mềm. 
+1. Công nghệ Thông tin - chuyên ngành Khoa học Dịch vụ & Kỹ thuật phần mềm. 
 Chỉ tiêu: 80 sinh viên.
 2. Cử nhân Khoa học Quản lý chuyên ngành Kinh Doanh Quốc Tế. 
 Chỉ tiêu: 120 sinh viên.
@@ -73,7 +73,7 @@ Tổ hợp môn xét tuyển: A00, A01, D07, B08
 3. Ngành Khoa học Máy tính (CT Tiên tiến)
 Mã ngành: 7480101_TT
 Tổ hợp môn xét tuyển: A00, A01, D07, B08
-4. Ngành Công nghệ Thông tin (CT Việt – Pháp)
+4. Ngành Công nghệ Thông tin (CT Việt - Pháp)
 Mã ngành: 7480201_VP
 Tổ hợp môn xét tuyển: A00, A01, D07, D29
 
