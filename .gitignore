@@ -40,6 +40,14 @@ ide-project/
 *_test__.py
 test/
 *_test_case.py
+test*.py
+Data/question
+Data/paraphrase
+Data/*
+queried_files.txt
+clone.py
+log.txt
+HandledData/
 
 # Ignore coverage reports and other analysis output
 coverage.xml

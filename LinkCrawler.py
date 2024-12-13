@@ -77,6 +77,7 @@ class HCMUSLinkCrawler():
                         self.news_links.add(href)
     def crawl(self, max_page: int = 25) -> list[str]:
         for _ in range(max_page):
+            print(f"Processing page {_ + 1}")
             responses = self.__crawl_http()
             self.__news_urls.clear()
             self.__news_urls.update(self.BASE_URLS)

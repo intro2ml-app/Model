@@ -81,7 +81,7 @@ async def get_response(user_query: UserQuery):
 
     # Generate response from the language model
     response = llmsModel.chat.completions.create(
-        model="llama3-70b-8192",
+        model="llama-3.1-70b-versatile",
         messages=message_history,
         stream=True,
     )

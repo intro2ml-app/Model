@@ -7,6 +7,10 @@ from datetime import datetime
 import os
 from dotenv import load_dotenv
 from LinkCrawler import HCMUSLinkCrawler
+from utils import saveJson, checkJsonExisted, find_txt_files
+from links import parsed_links
+import json
+import os
 
 load_dotenv()
 
@@ -53,7 +57,6 @@ class EmbeddingDatabase:
         parsed_date = self.__parse_date(source_date)
         values = [(source, title, chunk, embedding.tolist(), parsed_date) 
                  for chunk, embedding in zip(text_chunks, embeddings)]
-        
         insert_query = f"""
             INSERT INTO {self.collection_name} (source, title, text_chunk, embedding, source_date) 
             VALUES %s;
@@ -92,6 +95,65 @@ class EmbeddingDatabase:
         if self.conn:
             self.conn.close()
 
+    def table_exists(self, table_name=None):
+        """
+        Checks if a table exists in the database.
+        
+        Args:
+            table_name (str): Name of the table to check. Defaults to the collection_name attribute.
+            
+        Returns:
+            bool: True if the table exists, False otherwise.
+        """
+        table_name = table_name or self.collection_name
+        self.cur.execute("""
+            SELECT EXISTS (
+                SELECT 1 
+                FROM information_schema.tables 
+                WHERE table_name = %s
+            );
+        """, (table_name,))
+        return self.cur.fetchone()[0]
+
+    def blog_exists(self, title):
+        """
+        Checks if a blog with the given title exists in the collection.
+
+        Args:
+            title (str): The title of the blog to check.
+
+        Returns:
+            bool: True if the blog exists, False otherwise.
+        """
+        self.cur.execute(f"""
+            SELECT EXISTS (
+                SELECT 1 
+                FROM {self.collection_name}
+                WHERE title = %s
+            );
+        """, (title,))
+        return self.cur.fetchone()[0]
+
+    def delete_blog(self, title):
+        """
+        Deletes a blog with the given title from the collection.
+
+        Args:
+            title (str): The title of the blog to delete.
+
+        Returns:
+            str: Success message if the blog is deleted, or an error message if not found.
+        """
+        if self.blog_exists(title):
+            self.cur.execute(f"""
+                DELETE FROM {self.collection_name}
+                WHERE title = %s;
+            """, (title,))
+            self.conn.commit()
+            return f"Blog with title '{title}' has been successfully deleted."
+        else:
+            return f"Blog with title '{title}' does not exist."
+
 if __name__ == "__main__":
     # Load environment variables
     embedding_model_name = os.getenv('EMBEDDING_MODEL')
@@ -107,22 +169,59 @@ if __name__ == "__main__":
     embedding_db.create_embeddings_table()
 
     crawler = HCMUSLinkCrawler()
-    news_links = crawler.crawl(5)
+    # news_links = crawler.crawl(10)
+
+    # if news_links != []:
+    #     with open('links.txt', 'r') as file:
+    #         text = file.read()
+    #         parsed_links = text.split('\n')
+
+    #     for url in news_links:
+    #         if url in parsed_links:
+    #             continue
+    #         else:
+    #             print(f"Adding URL: {url}")
+    #             parsed_links.append(url)
+
+    #     with open('links.txt', 'w') as file:
+    #         file.write('\n'.join(parsed_links))
     
-    for url in news_links:
+    for url in parsed_links:
+        print(f"Processing URL: {url}")
         page_content = webparser.parse_webpage(url)
+        print(f"Parsing content: {page_content.get('title')}")
         text_chunks = textsplitter.get_text_chunks(page_content['content'])
 
         embeddings_text = embedding_db.model.encode(text_chunks)
         embedding_db.store_embeddings(text_chunks, embeddings_text, 
                                     source=url, title=page_content.get('title', ''),
                                     source_date=page_content.get('date'))
+        print("\n")
     
-    # Query similar texts
-    # query_text = "Ai nên tham gia chương trình talkshow kỹ năng ứng dụng AI trong học tập hiệu quả?"
-    # results = embedding_db.query_similar_texts(query_text, top_n=5)
-    # results.sort(key=lambda x: x['similarity'], reverse=True)
-    # print(f"ID: {results[0]['id']}, Text: {results[0]['text_chunk']}, Similarity: {results[0]['similarity']}", end='\n\n')
-    
+
+    folder_path = "Data"
+    # Embedding all txt files in the folder
+    txt_files = find_txt_files(folder_path)
+    for file_path in txt_files:
+        print(f"Processing file: {file_path}")
+        with open(file_path, "r", encoding="utf-8") as file:
+            text = file.read()
+            text_chunks = textsplitter.get_text_chunks(text)
+            embeddings_text = embedding_db.model.encode(text_chunks)
+            embedding_db.store_embeddings(text_chunks, embeddings_text, source=file_path, title=os.path.basename(file_path))
+        print("\n")
+
+    # Embedding all json files in the folder
+    folder = "Data/Decuongmonhoc"
+    json_files = [f for f in os.listdir(folder) if f.endswith('.json')]
+    for file in json_files:
+        print(f"Processing file: {file}")
+        with open(os.path.join(folder, file), 'r', encoding="utf-8") as f:
+            data = json.load(f)
+            text_chunks = textsplitter.get_text_chunks(data['content'])
+            embeddings_text = embedding_db.model.encode(text_chunks)
+            embedding_db.store_embeddings(text_chunks, embeddings_text, source=file, title="Đề cương tóm tắt của môn " + data["course_name"], source_date=None)
+        print("\n")
+
     # Close connection
     embedding_db.close_connection()
