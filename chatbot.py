@@ -6,8 +6,6 @@ import os
 
 load_dotenv()
 
-
-
 if __name__ == "__main__":
     embedding_model_name = os.getenv('EMBEDDING_MODEL') # 768
     connection_string = os.getenv('CONNECTION_STRING')

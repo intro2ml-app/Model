@@ -1,6 +1,5 @@
 import json
 import os
-
 # data = ({
 #             'content': content,
 #             'date': date,
@@ -36,3 +35,10 @@ def find_txt_files(folder_path):
             if file.endswith('.txt'):
                 txt_files.append(os.path.join(root, file))
     return txt_files
+
+import json
+with open("models.json", "r") as file:
+    models = json.load(file)
+    
+def parse_model(model):
+    return models[model]
