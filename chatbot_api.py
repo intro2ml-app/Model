@@ -19,7 +19,7 @@ class Message(BaseModel):
 
 class UserQuery(BaseModel):
     query: Union[str, List[Message]]  # query can be either a string or a list of Message objects
-    model: str
+    model: Optional[str] = "gpt-4o-mini"  # Optional, default to "gpt-4o-mini"
     temperature: Optional[float] = None  # Optional, default to None
     top_p: Optional[float] = None        # Optional, default to None
     max_tokens: Optional[int] = None     # Optional, default to None
@@ -107,16 +107,33 @@ async def get_response(user_query: UserQuery):
 async def get_response(user_query: UserQuery):
     # Extract the query from the request
     query = user_query.query
-    model = user_query.model
-    system_message = "You are a helpful assistant, please help to name the conversation and return in the user query language."
+    system_message = """You are a helpful assistant, please help to name the conversation and return in the user query language and return the name only. 
+    For example: 
+    query: Tell me a joke
+    response: Joke request and response
+    """
 
-    if isinstance(query, str):
-        query = [{"role": "system", "content": system_message}, {"role": "user", "content": query}]
-    
-        try:
-            response = llms.get_chat_completion(
-                query, model
-            )
-            return {"response": response.choices[0].message.content}
-        except Exception as e:
-            raise HTTPException(status_code=500, detail=f"Error: {str(e)}")
+    # Ensure `query` is a valid string
+    if not isinstance(query, str) or not query.strip():
+        raise HTTPException(status_code=400, detail="Invalid query. Query must be a non-empty string.")
+
+    # Construct the payload for the LLM
+    chat_payload = [
+        {"role": "system", "content": system_message},
+        {"role": "user", "content": query}
+    ]
+
+    try:
+        # Get the response from the LLM
+        response = llms.get_chat_completion(chat_payload, model="gpt-4o-mini")
+
+        # Validate response structure
+        if not response or not response.choices or not response.choices[0].message:
+            raise HTTPException(status_code=500, detail="Invalid response format from LLM.")
+        
+        # Return the content of the response
+        return {"response": response.choices[0].message.content}
+
+    except Exception as e:
+        # Log the error (optional) and return an HTTP error
+        raise HTTPException(status_code=500, detail="An error occurred while processing the request.")
