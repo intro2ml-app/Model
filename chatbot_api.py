@@ -75,7 +75,7 @@ async def get_response(user_query: UserQuery):
             return {"response": response.choices[0].message.content}
         except Exception as e:
             raise HTTPException(status_code=500, detail=str(e))
-    else:
+    else: # stream=True
         try:
             # Stream response generator
             async def llm_stream():
@@ -103,47 +103,3 @@ async def get_response(user_query: UserQuery):
         except Exception as e:
             raise HTTPException(status_code=500, detail=f"Error: {str(e)}")
     
-# from openai import OpenAI
-# import os
-# client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
-    
-# @app.post("/stream_query")
-# async def stream_response(user_query: UserQuery):
-#     # Extract the query from the request
-#     query = user_query.query
-#     model = user_query.model
-#     temperature = validate_and_convert(user_query.temperature, default=None, param_type=float)
-#     top_p = validate_and_convert(user_query.top_p, default=None, param_type=float)
-#     max_tokens = validate_and_convert(user_query.max_tokens, default=None, param_type=int)
-
-#     try:
-#         # Stream response generator
-#         async def llm_stream():
-#             response = llms.get_chat_completion_single(
-#                 message=query,
-#                 model=model,
-#                 temperature=temperature,
-#                 top_p=top_p,
-#                 max_tokens=max_tokens,
-#                 stream=True
-#             )
-#             for chunk in response:
-#                 try:
-#                     # check if the chunk has choices and content
-#                     if not chunk.choices or not chunk.choices[0] or not chunk.choices[0].delta or not chunk.choices[0].delta.content:
-#                         continue
-                    
-#                     message = chunk.choices[0].delta.content
-#                     if message:
-#                         yield message
-#                 except Exception as e:
-#                     # print(f"Error: {e}")
-#                     if response.choices[0].text:
-#                         yield response.choices[0].text
-#                     else:
-#                         yield ""
-#         return StreamingResponse(llm_stream(), media_type="text/plain")
-
-#     except Exception as e:
-#         # Handle any errors
-#         raise HTTPException(status_code=500, detail=f"Error: {str(e)}")

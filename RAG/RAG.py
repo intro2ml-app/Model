@@ -76,13 +76,13 @@ def get_response(user_query: UserQuery):
 
     if score == "yes":
         prompt = rag_model.create_prompt(results, user_query_text)
-        message_history.append({"role": "user", "content": prompt})
+        rag_model.message_history.append({"role": "user", "content": prompt})
     else:
-        message_history.append({"role": "user", "content": user_query_text})
+        rag_model.message_history.append({"role": "user", "content": user_query_text})
 
-    full_response = rag_model.generate_response(message_history)
-    message_history.append({"role": "assistant", "content": full_response})
+    full_response = rag_model.generate_response(rag_model.message_history)
+    rag_model.message_history.append({"role": "assistant", "content": full_response})
 
-    print(message_history)
+    print(rag_model.message_history)
 
     return {"response": full_response}
