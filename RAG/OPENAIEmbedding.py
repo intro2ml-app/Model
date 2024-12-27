@@ -7,7 +7,7 @@ import os
 from dotenv import load_dotenv
 from LinkCrawler import HCMUSLinkCrawler
 from utils import saveJson, checkJsonExisted, find_txt_files
-from links import parsed_links
+# from links import parsed_links
 import json
 from openai import OpenAI
 
@@ -125,8 +125,8 @@ if __name__ == "__main__":
     embedding_db = EmbeddingDatabase(connection_string, "text_embeddings")
     
     # Optional: Reset the table
-    embedding_db.delete_embeddings_table()
-    embedding_db.create_embeddings_table()
+    # embedding_db.delete_embeddings_table()
+    # embedding_db.create_embeddings_table()
 
     # crawler = HCMUSLinkCrawler()
     # news_links = crawler.crawl(2)

@@ -28,5 +28,7 @@
     "Qwen2.5-Coder-32B-Instruct": ["hf:Qwen/Qwen2.5-Coder-32B-Instruct:GLHF","Qwen2.5-Coder-32B-Instruct:SAMBANOVA"],
     "Qwen2.5-72B-Instruct": ["hf:Qwen/Qwen2.5-72B-Instruct:GLHF","Qwen2.5-72B-Instruct:SAMBANOVA"],
     "gemma-2-9b-it": ["gemma2-9b-it:GROQ", "hf:google/gemma-2-9b-it:GLHF"],
-    "gemma-2-27b-it": ["hf:google/gemma-2-27b-it:GLHF"]
+    "gemma-2-27b-it": ["hf:google/gemma-2-27b-it:GLHF"],
+    "USGPT-RAG": ["USGPT-RAG:USGPT-RAG"],
+    "USGPT": ["USGPT:USGPT"]
 }

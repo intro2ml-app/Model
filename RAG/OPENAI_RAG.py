@@ -1,7 +1,7 @@
 from pydantic import BaseModel
-from OPENAIRetriever import Retriever
-from openai import OpenAI
 import os
+from RAG.OPENAIRetriever import Retriever
+from LLMBaseModel import LLMBaseModel
 
 # Fetch environment variables
 embedding_model_name = os.getenv('EMBEDDING_MODEL')
@@ -12,10 +12,10 @@ openai_api_key = os.getenv('OPENAI_API_KEY')
 class UserQuery(BaseModel):
     query: str
 
-class RAGModel:
-    def __init__(self):
-        self.llmsModel = OpenAI(
-            api_key=openai_api_key,
+class RAGModel(LLMBaseModel):
+    def __init__(self, api_key):
+        super().__init__(
+            api_key=api_key
         )
         self.template_query = """
             Bạn là một trợ lý hữu ích đang giúp tôi trả lời các câu hỏi và yêu cầu cho người dùng.
@@ -69,37 +69,53 @@ class RAGModel:
         )
         return prompt
 
-    def generate_response(self, message_history):
-        response = self.llmsModel.chat.completions.create(
+    # def generate_response(self, message_history):
+    #     response = self.llmsModel.chat.completions.create(
+    #         model="gpt-4o-mini",
+    #         messages=message_history,
+    #         # stream=True
+    #     )
+    #     # full_response = ""
+    #     # for chunk in response:
+    #     #     content = getattr(chunk.choices[0].delta, "content", None)
+    #     #     if content is not None:
+    #     #         full_response += content
+    #     full_response = response.choices[0].message.content
+    #     return full_response
+    
+    def get_completion(self, messages, model="gpt-4o-mini", temperature=None, top_p=None, max_tokens=None, stream=False):
+        user_query_text = messages[-1]['content']
+        results = self.retrieve_top_document(user_query_text, top_n=3, top_k = 1)
+        print("Here !!!!!!!!!!!!!!!")
+        prompt = self.create_prompt(results, messages)
+        self.message_history.append({"role": "user", "content": prompt})
+        respone = self.llmsModel.chat.completions.create(
             model="gpt-4o-mini",
-            messages=message_history,
-            # stream=True
+            messages=self.message_history,
+            temperature=temperature,
+            top_p=top_p,
+            max_tokens=max_tokens,
+            stream=stream
         )
-        # full_response = ""
-        # for chunk in response:
-        #     content = getattr(chunk.choices[0].delta, "content", None)
-        #     if content is not None:
-        #         full_response += content
-        full_response = response.choices[0].message.content
-        return full_response
+        return respone
 
 
 # API endpoint to handle user queries
-def get_response(rag_model, user_query: UserQuery):
-    user_query_text = user_query.query
+# def get_response(rag_model, user_query: UserQuery):
+#     user_query_text = user_query.query
 
-    if user_query_text.lower() == "exit":
-        return {"message": "Exiting chatbot..."}
+#     if user_query_text.lower() == "exit":
+#         return {"message": "Exiting chatbot..."}
 
-    results = rag_model.retrieve_top_document(user_query_text, top_n=3, top_k = 1)
-    prompt = rag_model.create_prompt(results, user_query_text)
-    rag_model.message_history.append({"role": "user", "content": prompt})
-    full_response = rag_model.generate_response(rag_model.message_history)
-    rag_model.message_history.append({"role": "assistant", "content": full_response})
-    return {"response": full_response}
+#     results = rag_model.retrieve_top_document(user_query_text, top_n=3, top_k = 1)
+#     prompt = rag_model.create_prompt(results, user_query_text)
+#     rag_model.message_history.append({"role": "user", "content": prompt})
+#     full_response = rag_model.generate_response(rag_model.message_history)
+#     rag_model.message_history.append({"role": "assistant", "content": full_response})
+#     return {"response": full_response}
 
-if __name__ == "__main__":
-    rag_model = RAGModel()
-    user_query = UserQuery(query="Trong Cuộc thi học thuật thách thức vào năm 2024, ai là người vô địch?")
-    response = get_response(rag_model, user_query)
-    print(rag_model.message_history)    
+# if __name__ == "__main__":
+#     rag_model = RAGModel()
+#     user_query = UserQuery(query="Trong Cuộc thi học thuật thách thức vào năm 2024, ai là người vô địch?")
+#     response = get_response(rag_model, user_query)
+#     print(rag_model.message_history)    

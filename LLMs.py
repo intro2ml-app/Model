@@ -2,6 +2,7 @@ from dotenv import load_dotenv
 from utils import parse_model
 import os
 from LLMBaseModel import LLMBaseModel
+from RAG import RAGModel
 
 load_dotenv()
 
@@ -27,8 +28,10 @@ class LLMs:
                 api_key=os.environ.get("SAMBANOVA_API_KEY"),
                 base_url="https://api.sambanova.ai/v1",
             ),
+            "USGPT-RAG": RAGModel(
+                api_key=os.environ.get("OPENAI_API_KEY")    
+            ),
             "USGPT": None,
-            "USGPT_RAG": None,
         }
 
     def get_chat_completion_multi(self, messages, model="gpt-4o-mini", temperature=None, top_p=None, max_tokens=None, stream=False) -> str:
@@ -40,7 +43,7 @@ class LLMs:
             client = self.clients.get(client_name)
 
             print(f"-------------------------")
-            print(f"conversation: {messages}")
+            print(f"conversation(multi): {messages}")
             print(f"Model: {model}")
             print(f"-------------------------")
 
@@ -71,7 +74,7 @@ class LLMs:
             model_name, client_name = ":".join(model.split(":")[:-1]), model.split(":")[-1]
             client = self.clients.get(client_name)
             print(f"-------------------------")
-            print(f"conversation: {messages}")
+            print(f"conversation(single): {messages}")
             print(f"Model: {model}")
             print(f"-------------------------")
             if not client:
