@@ -32,6 +32,10 @@ class EmbeddingDatabase:
         cur = conn.cursor()
         return conn, cur
 
+    def encode_text(self, text):
+        """Encodes text into embeddings using the SentenceTransformer model."""
+        return self.model.encode(text)
+
     def create_embeddings_table(self):
         """Creates a table to store text chunks and their embeddings."""
         self.cur.execute(f"""
@@ -168,7 +172,7 @@ if __name__ == "__main__":
     embedding_db.delete_embeddings_table()
     embedding_db.create_embeddings_table()
 
-    crawler = HCMUSLinkCrawler()
+    # crawler = HCMUSLinkCrawler()
     # news_links = crawler.crawl(10)
 
     # if news_links != []:
@@ -186,20 +190,20 @@ if __name__ == "__main__":
     #     with open('links.txt', 'w') as file:
     #         file.write('\n'.join(parsed_links))
     
-    for url in parsed_links:
-        print(f"Processing URL: {url}")
-        page_content = webparser.parse_webpage(url)
-        print(f"Parsing content: {page_content.get('title')}")
-        text_chunks = textsplitter.get_text_chunks(page_content['content'])
+    # for url in parsed_links:
+    #     print(f"Processing URL: {url}")
+    #     page_content = webparser.parse_webpage(url)
+    #     print(f"Parsing content: {page_content.get('title')}")
+    #     text_chunks = textsplitter.get_text_chunks(page_content['content'])
 
-        embeddings_text = embedding_db.model.encode(text_chunks)
-        embedding_db.store_embeddings(text_chunks, embeddings_text, 
-                                    source=url, title=page_content.get('title', ''),
-                                    source_date=page_content.get('date'))
-        print("\n")
+    #     embeddings_text = embedding_db.model.encode(text_chunks)
+    #     embedding_db.store_embeddings(text_chunks, embeddings_text, 
+    #                                 source=url, title=page_content.get('title', ''),
+    #                                 source_date=page_content.get('date'))
+    #     print("\n")
     
 
-    folder_path = "Data"
+    folder_path = "../Data"
     # Embedding all txt files in the folder
     txt_files = find_txt_files(folder_path)
     for file_path in txt_files:
@@ -212,7 +216,7 @@ if __name__ == "__main__":
         print("\n")
 
     # Embedding all json files in the folder
-    folder = "Data/Decuongmonhoc"
+    folder = "../Data/Decuongmonhoc"
     json_files = [f for f in os.listdir(folder) if f.endswith('.json')]
     for file in json_files:
         print(f"Processing file: {file}")

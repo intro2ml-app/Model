@@ -2,6 +2,7 @@ from dotenv import load_dotenv
 from utils import parse_model
 import os
 from LLMBaseModel import LLMBaseModel
+from RAG import RAGModel
 
 load_dotenv()
 
@@ -27,20 +28,21 @@ class LLMs:
                 api_key=os.environ.get("SAMBANOVA_API_KEY"),
                 base_url="https://api.sambanova.ai/v1",
             ),
+            "USGPT-RAG": RAGModel(
+                api_key=os.environ.get("OPENAI_API_KEY")    
+            ),
             "USGPT": None,
-            "USGPT_RAG": None,
         }
 
-    def get_chat_completion_multi(self, messages, model="gpt-4o-mini", temperature=None, top_p=None, max_tokens=None, stream=False) -> str:
+    def get_chat_completion(self, messages, model="gpt-4o-mini", temperature=None, top_p=None, max_tokens=None, stream=False) -> str:
         models = parse_model(model)
-        respone = "I'm sorry, I couldn't find an answer to your question."
         
         for model in models:
             model_name, client_name = ":".join(model.split(":")[:-1]), model.split(":")[-1]
             client = self.clients.get(client_name)
 
             print(f"-------------------------")
-            print(f"conversation: {messages}")
+            print(f"conversation(multi): {messages}")
             print(f"Model: {model}")
             print(f"-------------------------")
 
@@ -63,36 +65,36 @@ class LLMs:
                 continue
         return {"choices": [{"text": "I'm sorry, I couldn't find an answer to your question."}]}
     
-    def get_chat_completion_single(self, message, model="gpt-4o-mini", temperature=None, top_p=None, max_tokens=None, system_message="You are a helpful assistant", stream=False):
-        messages = [{"role": "system", "content": system_message}, {"role": "user", "content": message}]
-        models = parse_model(model)
+    # def get_chat_completion_single(self, message, model="gpt-4o-mini", temperature=None, top_p=None, max_tokens=None, system_message="You are a helpful assistant", stream=False):
+    #     messages = [{"role": "system", "content": system_message}, {"role": "user", "content": message}]
+    #     models = parse_model(model)
 
-        for model in models:
-            model_name, client_name = ":".join(model.split(":")[:-1]), model.split(":")[-1]
-            client = self.clients.get(client_name)
-            print(f"-------------------------")
-            print(f"conversation: {messages}")
-            print(f"Model: {model}")
-            print(f"-------------------------")
-            if not client:
-                raise ValueError(f"Unsupported client: {client_name}")
+    #     for model in models:
+    #         model_name, client_name = ":".join(model.split(":")[:-1]), model.split(":")[-1]
+    #         client = self.clients.get(client_name)
+    #         print(f"-------------------------")
+    #         print(f"conversation(single): {messages}")
+    #         print(f"Model: {model}")
+    #         print(f"-------------------------")
+    #         if not client:
+    #             raise ValueError(f"Unsupported client: {client_name}")
 
-            try:
-                response = client.get_completion(
-                    model=model_name,
-                    messages=messages,
-                    temperature=temperature,
-                    top_p=top_p,
-                    max_tokens=max_tokens,
-                    stream=stream
-                )
-                return response
-            except Exception as e:
-                print(f"Error: {e}")
-                print(f"Retrying with another hosting...")
-                continue
+    #         try:
+    #             response = client.get_completion(
+    #                 model=model_name,
+    #                 messages=messages,
+    #                 temperature=temperature,
+    #                 top_p=top_p,
+    #                 max_tokens=max_tokens,
+    #                 stream=stream
+    #             )
+    #             return response
+    #         except Exception as e:
+    #             print(f"Error: {e}")
+    #             print(f"Retrying with another hosting...")
+    #             continue
 
-        return {"choices": [{"text": "I'm sorry, I couldn't find an answer to your question."}]}
+    #     return {"choices": [{"text": "I'm sorry, I couldn't find an answer to your question."}]}
 
 if __name__ == "__main__":
     import json
