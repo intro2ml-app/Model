@@ -69,7 +69,7 @@ This endpoint helps generate a name for a conversation based on the user's query
 
 ```json
 {
-  "query": "Suggest a name for this conversation.",
+  "query": "Write me quicksort code.",
 }
 ```
 **Parameters:**
@@ -78,7 +78,7 @@ This endpoint helps generate a name for a conversation based on the user's query
 **Response:**
 ```json
 {
-  "response": "Conversation naming."
+  "response": "Quicksort python Implementation."
 }
 ```
 
