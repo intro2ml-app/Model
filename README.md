@@ -73,7 +73,7 @@ This endpoint helps generate a name for a conversation based on the user's query
 }
 ```
 **Parameters:**
-- `query` (required): User's input, either a string or a list of messages with roles and content.
+- `query` (required): User's first input in the conversation.
 
 **Response:**
 ```json
