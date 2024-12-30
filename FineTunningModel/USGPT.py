@@ -57,10 +57,10 @@ class USGPT(LLMBaseModel):
                 print(f"USGPT output: {output}")
                 return output
             else:
-                return {"error": "No 'response' key in the response data"}
+                return {"error": "No 'response' key in the response data\n Make sure that the google colab is turn on and the uri is correct"}
         except requests.exceptions.RequestException as e:
             # Handle errors related to the request
-            return {"error": f"Request failed: {str(e)}"}
+            return {"error": f"Request failed: {str(e)}\n Make sure that the google colab is turn on and the uri is correct"}
         except Exception as e:
             # Handle any other exceptions
-            return {"error": f"An error occurred: {str(e)}"}
+            return {"error": f"An error occurred: {str(e)}\n Make sure that the google colab is turn on and the uri is correct"}
