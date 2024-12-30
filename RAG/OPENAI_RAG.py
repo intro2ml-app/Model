@@ -86,7 +86,6 @@ class RAGModel(LLMBaseModel):
     def get_completion(self, messages, model="gpt-4o-mini", temperature=None, top_p=None, max_tokens=None, stream=False):
         user_query_text = messages[-1]['content']
         results = self.retrieve_top_document(user_query_text, top_n=3, top_k = 1)
-        print("Here !!!!!!!!!!!!!!!")
         prompt = self.create_prompt(results, messages)
         self.message_history.append({"role": "user", "content": prompt})
         respone = self.llmsModel.chat.completions.create(
