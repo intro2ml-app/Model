@@ -3,6 +3,7 @@ from utils import parse_model
 import os
 from LLMBaseModel import LLMBaseModel
 from RAG import RAGModel
+from FineTunningModel import USGPT
 
 load_dotenv()
 
@@ -31,7 +32,9 @@ class LLMs:
             "USGPT-RAG": RAGModel(
                 api_key=os.environ.get("OPENAI_API_KEY")    
             ),
-            "USGPT": None,
+            "USGPT": USGPT(
+                api_key=os.environ.get("OPENAI_API_KEY")    
+            ),
         }
 
     def get_chat_completion(self, messages, model="gpt-4o-mini", temperature=None, top_p=None, max_tokens=None, stream=False) -> str:

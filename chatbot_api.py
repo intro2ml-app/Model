@@ -71,6 +71,9 @@ async def get_response(user_query: UserQuery):
             response = llms.get_chat_completion(
                 query, model, temperature, top_p, max_tokens, stream=False
             )
+            if isinstance(response, str):
+                import json
+                response = json.loads(response)
             return {"response": response.choices[0].message.content}
         except Exception as e:
             raise HTTPException(status_code=500, detail=str(e))
