@@ -2,9 +2,10 @@ fastapi
 pydantic
 openai
 python-dotenv
-sentence-transformers
 psycopg2
 requests
 beautifulsoup4
 futures
 langchain
+uvicorn
+groq

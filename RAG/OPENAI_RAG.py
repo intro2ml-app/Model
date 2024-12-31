@@ -2,6 +2,9 @@ from pydantic import BaseModel
 import os
 from RAG.OPENAIRetriever import Retriever
 from LLMBaseModel import LLMBaseModel
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Fetch environment variables
 embedding_model_name = os.getenv('EMBEDDING_MODEL')
@@ -68,20 +71,6 @@ class RAGModel(LLMBaseModel):
             question=user_query_text
         )
         return prompt
-
-    # def generate_response(self, message_history):
-    #     response = self.llmsModel.chat.completions.create(
-    #         model="gpt-4o-mini",
-    #         messages=message_history,
-    #         # stream=True
-    #     )
-    #     # full_response = ""
-    #     # for chunk in response:
-    #     #     content = getattr(chunk.choices[0].delta, "content", None)
-    #     #     if content is not None:
-    #     #         full_response += content
-    #     full_response = response.choices[0].message.content
-    #     return full_response
     
     def get_completion(self, messages, model="gpt-4o-mini", temperature=None, top_p=None, max_tokens=None, stream=False):
         user_query_text = messages[-1]['content']
