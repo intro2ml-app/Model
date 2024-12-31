@@ -45,9 +45,10 @@ Data/question
 Data/paraphrase
 Data/*
 queried_files.txt
-clone.py
+clone*.py
 log.txt
 HandledData/
+*_val*.txt
 
 # Ignore coverage reports and other analysis output
 coverage.xml

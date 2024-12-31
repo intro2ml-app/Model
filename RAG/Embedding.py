@@ -8,7 +8,6 @@ import os
 from dotenv import load_dotenv
 from LinkCrawler import HCMUSLinkCrawler
 from utils import saveJson, checkJsonExisted, find_txt_files
-from links import parsed_links
 import json
 import os
 
