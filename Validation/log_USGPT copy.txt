@@ -1,0 +1,1099 @@
+Input: Ai là Phó Hiệu trưởng 1 và giữ chức Giám đốc Trung tâm Đào tạo Quốc tế?
+Output: PGS.TS. Trần Minh Triết là Phó Hiệu trưởng 1 và giữ chức Giám đốc Trung tâm Đào tạo Quốc tế.
+Response: PGS.TS. Trần Minh Triết là Phó Hiệu trưởng 1 và cũng giữ chức Giám đốc Trung tâm Đào tạo Quốc tế.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình không thay đổi về nội dung chính, chỉ khác nhau về cách diễn đạt."
+}
+Correct: ✅ 1/100 ✅
+
+------------------------------------------------
+
+Input: Thí sinh tham gia Cuộc thi học thuật Thách Thức cần đáp ứng yêu cầu gì về trình độ?
+Output: Thí sinh không cần đáp ứng yêu cầu về trình độ chuyên môn, điều kiện duy nhất là phải là sinh viên của một trường đại học.
+Response: Không có yêu cầu về trình độ chuyên môn, chỉ cần là sinh viên của một trường đại học.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình chính xác, diễn đạt lại nội dung yêu cầu về trình độ tham gia cuộc thi."
+}
+Correct: ✅ 2/100 ✅
+
+------------------------------------------------
+
+Input: Trưởng bộ môn Hải dương - Khí tượng - Thủy văn là ai?
+Output: Phó giáo sư, Tiến sĩ Võ Lương Hồng Phước là Trưởng bộ môn Hải dương - Khí tượng - Thủy văn, bộ môn này thuộc khoa Vật lý.
+Response: Trưởng bộ môn Hải dương - Khí tượng - Thủy văn là Phó giáo sư, Tiến sĩ Võ Lương Hồng Phước. Bộ môn này thuộc khoa Vật lý.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình chính xác với thông tin được cung cấp"
+}
+Correct: ✅ 3/100 ✅
+
+------------------------------------------------
+
+Input: Tôi có thể tìm thấy Trường Đại học Khoa học Tự nhiên, ĐHQG-HCM ở địa chỉ nào?
+Output: Trường Đại học Khoa học Tự nhiên, ĐHQG-HCM có địa chỉ tại 227 Nguyễn Văn Cừ, Phường 4, Quận 5, Tp.HCM.
+Response: Trường Đại học Khoa học Tự nhiên, ĐHQG-HCM có địa chỉ tại 227 Nguyễn Văn Cừ, Phường 4, Quận 5, Tp.HCM.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình chính xác và giống hệt với câu trả lời từ người hỏi."
+}
+Correct: ✅ 4/100 ✅
+
+------------------------------------------------
+
+Input: Thư viện có trang web nào?
+Output: Thư viện có trang web tại https://glib.hcmus.edu.vn/.
+Response: Thư viện có trang web tại https://glib.hcmus.edu.vn/.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình chính xác và đầy đủ thông tin."
+}
+Correct: ✅ 5/100 ✅
+
+------------------------------------------------
+
+Input: Biểu mẫu ở đâu có thể sử dụng cho các công tác sinh viên?
+Output: Biểu mẫu dành cho các công tác sinh viên có thể truy cập tại https://hcmus.edu.vn/bieu-mau-phong-cong-tac-sinh-vien/.
+Response: Biểu mẫu có thể sử dụng cho các công tác sinh viên có sẵn tại địa chỉ https://hcmus.edu.vn/bieu-mau-phong-cong-tac-sinh-vien/.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình chính xác về việc cung cấp địa chỉ truy cập biểu mẫu dành cho các công tác sinh viên."
+}
+Correct: ✅ 6/100 ✅
+
+------------------------------------------------
+
+Input: Ai là Tổng Giám đốc Công ty Redsun và thành viên Hội đồng trường?
+Output: Tổng Giám đốc Công ty Redsun là ông Diệp Bảo Cánh. Ông là cựu sinh viên, doanh nhân, đại diện cho đơn vị sử dụng lao động trong Hội đồng trường.
+Response: Ông Diệp Bảo Cánh là Tổng Giám đốc Công ty Redsun và cũng là thành viên của Hội đồng trường, với kinh nghiệm cả trong lĩnh vực kinh doanh và giáo dục.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình chính xác vì nó nêu rõ thông tin về ông Diệp Bảo Cánh là Tổng Giám đốc của Công ty Redsun và cũng là thành viên của Hội đồng trường, đồng thời bổ sung thêm kinh nghiệm của ông."
+}
+Correct: ✅ 7/100 ✅
+
+------------------------------------------------
+
+Input: Ai là Phó Bí thư Đảng ủy và Phó Chủ tịch Hội đồng trường?
+Output: Phó Bí thư Đảng ủy và Phó Chủ tịch Hội đồng trường là PGS.TS. Trần Lê Quan. Ông là Hiệu trưởng của trường.
+Response: PGS.TS. Trần Lê Quan là Phó Bí thư Đảng ủy và Phó Chủ tịch Hội đồng trường, đồng thời là Hiệu trưởng của trường.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình chính xác và có ý nghĩa tương đồng với câu hỏi."
+}
+Correct: ✅ 8/100 ✅
+
+------------------------------------------------
+
+Input: TS. Bùi Xuân Thắng là ai và ông giảng dạy tại đâu không?
+Output: TS. Bùi Xuân Thắng là giảng viên của Khoa Toán Tin Học tại trường Đại học Khoa học Tự nhiên. Email liên hệ của ông là bxthang@hcmus.edu.vn.
+Response: TS. Bùi Xuân Thắng là giảng viên thuộc khoa Toán Tin Học của trường Đại học Khoa học Tự nhiên. Ông có email là bxthang@hcmus.edu.vn.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình chính xác vì có cùng thông tin cơ bản về nhân vật được hỏi."
+}
+Correct: ✅ 9/100 ✅
+
+------------------------------------------------
+
+Input: Ai đang giữ vị trí Viện trưởng Viện tế bào gốc và đồng thời là thành viên Hội đồng trường?
+Output: Hiện tại, PGS.TS. Phạm Văn Phúc là Viện trưởng Viện tế bào gốc và cũng là đại diện giảng viên trong Hội đồng trường.
+Response: PGS.TS. Phạm Văn Phúc là người đang giữ vị trí Viện trưởng Viện tế bào gốc và cũng là thành viên của Hội đồng trường, đại diện cho giảng viên.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình chính xác vì nó nêu đúng thông tin về người giữ vị trí Viện trưởng và vị trí trong Hội đồng trường."
+}
+Correct: ✅ 10/100 ✅
+
+------------------------------------------------
+
+Input: Người đứng đầu bộ môn Công nghệ tri thức là ai?
+Output: Người đứng đầu bộ môn Công nghệ tri thức của khoa Công nghệ thông tin hiện nay là Phó giáo sư, Tiến sĩ Nguyễn Đình Thúc.
+Response: Phó giáo sư, Tiến sĩ Nguyễn Đình Thúc là người đứng đầu bộ môn Công nghệ tri thức thuộc khoa Công nghệ thông tin.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình chính xác và giữ nguyên ý nghĩa của câu hỏi."
+}
+Correct: ✅ 11/100 ✅
+
+------------------------------------------------
+
+Input: Hội Sinh viên của trường có địa chỉ liên hệ nào?
+Output: Hội Sinh viên có nhiều phương thức liên hệ, bao gồm email hoisinhvien@hcmus.edu.vn, trang web https://www.facebook.com/hsvkhtn/, số điện thoại (028) 38354008 và hai văn phòng tại F.106, tòa F hoặc phòng 2.9, tầng 2, Nhà điều hành.
+Response: Hội Sinh viên có văn phòng tại F.106, tòa F hoặc phòng 2.9, tầng 2, Nhà điều hành.
+{
+    "correct": false,
+    "explain": "Câu trả lời của mô hình không đầy đủ, chỉ đề cập đến các địa chỉ văn phòng mà không cung cấp thông tin về các phương thức liên hệ khác như email, trang web và số điện thoại."
+}
+Correct: ❌ 11/100 ❌
+
+------------------------------------------------
+
+Input: Có bao nhiêu đối tác quốc tế mà Trường Đại học Khoa học tự nhiên đang hợp tác?
+Output: Trường Đại học Khoa học tự nhiên hiện có mối quan hệ hợp tác với trên 60 tổ chức khoa học và hơn 50 trường đại học, viện nghiên cứu danh tiếng từ 30 quốc gia và vùng lãnh thổ. Hợp tác quốc tế này hỗ trợ nâng cao chất lượng giảng dạy và nghiên cứu tại trường, đồng thời mở ra nhiều cơ hội cho sinh viên và giảng viên.
+Response: Trường Đại học Khoa học tự nhiên có mối quan hệ hợp tác với hơn 60 tổ chức khoa học và hơn 50 trường đại học, viện nghiên cứu uy tín ở 30 quốc gia và vùng lãnh thổ.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình chính xác vì nó cung cấp thông tin tương tự về số lượng đối tác quốc tế mà Trường Đại học Khoa học tự nhiên đang hợp tác."
+}
+Correct: ✅ 12/100 ✅
+
+------------------------------------------------
+
+Input: Ở những khu vực nào trên thế giới mà ĐHQG-HCM có mối quan hệ hợp tác học thuật?
+Output: ĐHQG-HCM có mạng lưới đối tác học thuật trên nhiều châu lục, bao gồm châu Á, châu Âu, châu Mỹ và châu Úc, giúp trường có thể tiếp cận và cập nhật các xu hướng giáo dục mới nhất, đồng thời mở rộng cơ hội hợp tác quốc tế.
+Response: ĐHQG-HCM có mối quan hệ hợp tác học thuật với các tổ chức giáo dục hàng đầu ở châu Á, châu Âu, châu Mỹ và châu Úc, giúp trường luôn cập nhật các xu hướng giáo dục tiến bộ.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình thể hiện đúng thông tin về khu vực hợp tác học thuật của ĐHQG-HCM."
+}
+Correct: ✅ 13/100 ✅
+
+------------------------------------------------
+
+Input: Khoa của ThS. Lê Thị Tuyết Nhung là gì?
+Output: ThS. Lê Thị Tuyết Nhung công tác tại khoa Toán Tin Học. Email liên hệ của cô là lttnhung@hcmus.edu.vn.
+Response: ThS. Lê Thị Tuyết Nhung là giảng viên thuộc khoa Toán Tin Học. Email của bà là lttnhung@hcmus.edu.vn.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình chính xác vì cả hai đều xác định rằng ThS. Lê Thị Tuyết Nhung thuộc khoa Toán Tin Học và cung cấp email liên hệ của cô ấy."
+}
+Correct: ✅ 14/100 ✅
+
+------------------------------------------------
+
+Input: Cụ thể nội dung thi của Cuộc thi học thuật Thách Thức là gì?
+Output: Nội dung thi của Cuộc thi học thuật Thách Thức chủ yếu tập trung vào kiến thức về Công nghệ thông tin.
+Response: Nội dung thi bao gồm các kiến thức về Công nghệ thông tin, bao gồm cả lý thuyết và thực hành.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình chính xác, vì cả hai đều đề cập đến nội dung thi tập trung vào kiến thức về Công nghệ thông tin."
+}
+Correct: ✅ 15/100 ✅
+
+------------------------------------------------
+
+Input: Danh tính của các Phó Trưởng khoa Vật lý, Vật lý Kỹ thuật là ai?
+Output: Khoa Vật lý, Vật lý Kỹ thuật có ba Phó Trưởng khoa, bao gồm PGS.TS. Trần Thiện Thanh và TS. Đặng Hoài Trung, cùng một người nữa, những người này hỗ trợ Trưởng khoa trong việc quản lý các chương trình đào tạo và nghiên cứu tại khoa.
+Response: Danh tính của các Phó Trưởng khoa Vật lý, Vật lý Kỹ thuật là PGS.TS. Trần Thiện Thanh và TS. Đặng Hoài Trung, họ hỗ trợ Trưởng khoa trong công tác giảng dạy và nghiên cứu.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình cung cấp thông tin chính xác về danh tính các Phó Trưởng khoa và vai trò của họ trong tổ chức khoa học."
+}
+Correct: ✅ 16/100 ✅
+
+------------------------------------------------
+
+Input: Cuộc thi học thuật Thách Thức có áp dụng hình thức thi trực tuyến không?
+Output: Cuộc thi chỉ áp dụng thi trực tiếp tại địa điểm tổ chức.
+Response: Không, cuộc thi chỉ áp dụng hình thức thi trực tiếp tại địa điểm tổ chức.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình chính xác vì nó khẳng định rằng cuộc thi chỉ áp dụng hình thức thi trực tiếp, đúng với câu hỏi."
+}
+Correct: ✅ 17/100 ✅
+
+------------------------------------------------
+
+Input: ThS. Ngô Ngọc Đăng Khoa làm việc tại khoa nào và địa chỉ email của ông là gì?
+Output: ThS. Ngô Ngọc Đăng Khoa hiện là giảng viên trong khoa Công nghệ thông tin và địa chỉ email của ông là nndkhoa@fit.hcmus.edu.vn.
+Response: ThS. Ngô Ngọc Đăng Khoa là giảng viên thuộc khoa Công nghệ thông tin và có địa chỉ email là nndkhoa@fit.hcmus.edu.vn.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình chính xác với thông tin được yêu cầu."
+}
+Correct: ✅ 18/100 ✅
+
+------------------------------------------------
+
+Input: Có bao nhiêu phó Trưởng khoa Vật lý, Vật lý Kỹ thuật?
+Output: Hiện tại, có ba Phó Trưởng khoa đang hỗ trợ Trưởng khoa Vật lý, Vật lý Kỹ thuật, bao gồm PGS.TS. Trần Thiện Thanh và TS. Đặng Hoài Trung, cùng một người nữa, những người này đóng vai trò quan trọng trong việc quản lý các chương trình đào tạo và nghiên cứu tại khoa.
+Response: Có ba Phó Trưởng khoa Vật lý, Vật lý Kỹ thuật, bao gồm PGS.TS. Trần Thiện Thanh, TS. Đặng Hoài Trung. Họ hỗ trợ Trưởng khoa trong công tác giảng dạy và nghiên cứu tại khoa.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình cung cấp thông tin chính xác về số lượng và vai trò của các Phó Trưởng khoa, mặc dù có sự khác biệt nhỏ trong cách diễn đạt."
+}
+Correct: ✅ 19/100 ✅
+
+------------------------------------------------
+
+Input: Sinh viên ngành Máy tính và CNTT thường chọn chuyên ngành nào và khi nào?
+Output: Các sinh viên ngành Máy tính và CNTT sẽ chọn chuyên ngành sau 2 năm học, bao gồm các chuyên ngành như Công nghệ Thông tin, Hệ thống Thông tin, Khoa học Máy tính, Kỹ thuật Phần mềm, và Trí tuệ nhân tạo, từ đó giúp họ chuyên sâu vào các ngành kỹ thuật và công nghệ.
+Response: Sinh viên ngành Máy tính và CNTT thường chọn chuyên ngành sau 2 năm học, bao gồm các chuyên ngành như Công nghệ Thông tin, Hệ thống Thông tin, Khoa học Máy tính, Kỹ thuật Phần mềm, và Trí tuệ nhân tạo.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình đúng về nội dung câu hỏi và thời gian chọn chuyên ngành, tuy nhiên không đề cập đến lợi ích của việc chuyên sâu như trong câu trả lời ban đầu."
+}
+Correct: ✅ 20/100 ✅
+
+------------------------------------------------
+
+Input: Bạn có thể giới thiệu về TS. Võ Hoài Việt không?
+Output: TS. Võ Hoài Việt là giảng viên tại khoa Công nghệ thông tin của trường, với địa chỉ email là vhviet@fit.hcmus.edu.vn.
+Response: TS. Võ Hoài Việt là giảng viên thuộc khoa Công nghệ thông tin của trường, ông có địa chỉ mail là vhviet@fit.hcmus.edu.vn.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình đưa ra thông tin tương tự về TS. Võ Hoài Việt, chỉ khác một số từ ngữ mà không làm thay đổi ý chính."
+}
+Correct: ✅ 21/100 ✅
+
+------------------------------------------------
+
+Input: Ai là Trưởng Khoa Vật lý – VLKT và cũng tham gia Hội đồng trường?
+Output: PGS.TS. Lê Vũ Tuấn Hùng là người lãnh đạo Khoa Vật lý – VLKT và đồng thời là thành viên của Hội đồng trường, nơi ông đại diện cho đội ngũ giảng viên của trường.
+Response: PGS.TS. Lê Vũ Tuấn Hùng, Trưởng Khoa Vật lý – VLKT, là thành viên của Hội đồng trường và đại diện cho giảng viên.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình cung cấp thông tin chính xác về PGS.TS. Lê Vũ Tuấn Hùng giữ chức vụ Trưởng Khoa Vật lý – VLKT và tham gia Hội đồng trường, với ý nghĩa tương đương với câu hỏi."
+}
+Correct: ✅ 22/100 ✅
+
+------------------------------------------------
+
+Input: Ai đang giữ chức vụ Trưởng khoa tại Khoa Môi trường?
+Output: Trưởng khoa Khoa Môi trường hiện tại là TS. Lê Tự Thành, ông chịu trách nhiệm về các chương trình đào tạo về môi trường và các nghiên cứu khoa học liên quan đến bảo vệ môi trường.
+Response: TS. Lê Tự Thành là người đang giữ chức vụ Trưởng khoa tại Khoa Môi trường, nơi ông lãnh đạo các hoạt động đào tạo và nghiên cứu về môi trường.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình cung cấp thông tin tương tự, xác định đúng người giữ chức vụ và vai trò của họ trong Khoa Môi trường."
+}
+Correct: ✅ 23/100 ✅
+
+------------------------------------------------
+
+Input: Thành viên nào của Hội đồng trường đang giữ chức vụ Phó Hiệu trưởng?
+Output: PGS.TS. Trần Minh Triết là thành viên của Hội đồng trường và cũng là Phó Hiệu trưởng, đại diện cho VC-NLĐ trong hội đồng này.
+Response: PGS.TS. Trần Minh Triết là thành viên của Hội đồng trường và đồng thời là Phó Hiệu trưởng, đại diện cho VC-NLĐ.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình chính xác và có ý nghĩa giống nhau với câu trả lời gốc."
+}
+Correct: ✅ 24/100 ✅
+
+------------------------------------------------
+
+Input: Trường có giúp sinh viên tìm việc sau khi tốt nghiệp không?
+Output: Có, trường có trung tâm hỗ trợ sinh viên trong việc tìm việc làm, tổ chức các chương trình hướng nghiệp và hội thảo, cùng với việc tạo cơ hội thực tập để sinh viên phát triển kỹ năng và tìm kiếm việc làm sau khi tốt nghiệp.
+Response: Trường có trung tâm hỗ trợ sinh viên tìm việc làm sau khi tốt nghiệp. Trung tâm này tổ chức các hội thảo, chương trình hướng nghiệp và tạo cơ hội thực tập cho sinh viên để giúp họ tìm kiếm việc làm sau khi tốt nghiệp.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình có ý nghĩa tương tự với câu trả lời gốc, đều đề cập đến việc trường hỗ trợ sinh viên tìm việc qua các trung tâm và hoạt động liên quan."
+}
+Correct: ✅ 25/100 ✅
+
+------------------------------------------------
+
+Input: Các đơn vị trực thuộc và thành viên của ĐHQG-HCM là gì?
+Output: ĐHQG-HCM có 27 đơn vị trực thuộc bao gồm các đơn vị đào tạo, nghiên cứu và chuyển giao công nghệ, bên cạnh đó còn có 8 đơn vị thành viên như Trường ĐH Bách Khoa, Trường ĐH Khoa học Tự nhiên, Trường ĐH KHXH&NV, Trường ĐH Quốc Tế.
+Response: Các đơn vị trực thuộc của ĐHQG-HCM bao gồm các trường đại học như Trường ĐH Bách Khoa, Trường ĐH Khoa học Tự nhiên, Trường ĐH KHXH&NV, Trường ĐH Quốc Tế, và các trường khác. Ngoài ra, ĐHQG-HCM còn có các thành viên như Trường ĐH CNTT và Trường ĐH Kinh tế - Luật.
+{
+    "correct": false,
+    "explain": "Câu trả lời của mô hình không đầy đủ và có sự khác biệt về số lượng đơn vị thành viên. Mô hình thiếu một số đơn vị thành viên và không làm rõ số lượng đơn vị trực thuộc."
+}
+Correct: ❌ 25/100 ❌
+
+------------------------------------------------
+
+Input: Số lượng cơ sở của Trường ĐH Khoa học Tự nhiên và khu vực nào phục vụ cho đào tạo đại học chính quy là gì?
+Output: Trường ĐH Khoa học Tự nhiên có hai cơ sở. Cơ sở chính phục vụ cho hệ đào tạo đại học chính quy nằm trong địa phận Khu đô thị ĐH Quốc gia TP.HCM ở TP. Thủ Đức, nơi sinh viên năm 1, 2 và 3 học tập.
+Response: Trường ĐH Khoa học Tự nhiên có hai cơ sở, trong đó cơ sở chính phục vụ cho đào tạo đại học chính quy nằm tại Khu đô thị ĐH Quốc gia TP.HCM, TP. Thủ Đức, phục vụ cho sinh viên năm 1, 2 và 3.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình cung cấp thông tin đúng về số lượng cơ sở và địa điểm phục vụ cho đào tạo đại học chính quy của Trường ĐH Khoa học Tự nhiên."
+}
+Correct: ✅ 26/100 ✅
+
+------------------------------------------------
+
+Input: Ai là trưởng khoa Khoa Điện tử - Viễn thông?
+Output: Khoa Điện tử - Viễn thông được lãnh đạo bởi TS. Bùi Trọng Tú (trưởng khoa), người phụ trách việc điều hành và chỉ đạo các hoạt động liên quan đến đào tạo và nghiên cứu trong lĩnh vực điện tử và viễn thông.
+Response: Trưởng khoa Điện tử - Viễn thông là TS. Bùi Trọng Tú. Ông lãnh đạo các chương trình đào tạo và nghiên cứu trong lĩnh vực điện tử và viễn thông.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình cho biết đúng tên trưởng khoa và hoạt động liên quan của ông trong Khoa Điện tử - Viễn thông."
+}
+Correct: ✅ 27/100 ✅
+
+------------------------------------------------
+
+Input: Bạn có biết TS. Võ Sĩ Trọng Long đang làm việc ở khoa nào không?
+Output: TS. Võ Sĩ Trọng Long công tác tại khoa Toán Tin Học. Ông cũng có thể được liên lạc qua email: vstlong@hcmus.edu.vn.
+Response: TS. Võ Sĩ Trọng Long đang công tác tại khoa Toán Tin Học, với thông tin liên hệ email là vstlong@hcmus.edu.vn.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình hoàn toàn chính xác về thông tin mà câu hỏi yêu cầu."
+}
+Correct: ✅ 28/100 ✅
+
+------------------------------------------------
+
+Input: Đồng chí PGS.TS. Trần Thiện Thanh có phải là Phó Trưởng khoa của Khoa Vật lý, Vật lý Kỹ thuật hay không?
+Output: Đúng vậy, PGS.TS. Trần Thiện Thanh là một trong ba Phó Trưởng khoa của Khoa Vật lý, Vật lý Kỹ thuật, cùng với TS. Đặng Hoài Trung. Cả hai hỗ trợ Trưởng khoa trong việc giảng dạy và nghiên cứu tại khoa này.
+Response: Đồng chí PGS.TS. Trần Thiện Thanh là Phó Trưởng khoa của Khoa Vật lý, Vật lý Kỹ thuật, cùng với trưởng khoa PGS.TS. Huỳnh Văn Tuấn.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình là chính xác vì nó xác nhận PGS.TS. Trần Thiện Thanh là Phó Trưởng khoa của Khoa Vật lý, Vật lý Kỹ thuật, mặc dù có một số thông tin bổ sung về các thành viên khác trong khoa."
+}
+Correct: ✅ 29/100 ✅
+
+------------------------------------------------
+
+Input: ThS. Lê Thị Tuyết Nhung làm việc ở đâu?
+Output: ThS. Lê Thị Tuyết Nhung là giảng viên tại khoa Toán Tin Học, và địa chỉ email của cô là lttnhung@hcmus.edu.vn.
+Response: ThS. Lê Thị Tuyết Nhung là giảng viên thuộc khoa Toán Tin Học của trường Đại học Khoa học Tự nhiên. Email của bà là lttnhung@hcmus.edu.vn.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình đúng về vị trí làm việc và thông tin liên quan đến ThS. Lê Thị Tuyết Nhung."
+}
+Correct: ✅ 30/100 ✅
+
+------------------------------------------------
+
+Input: Trang web của Phòng Đào tạo là gì?
+Output: Trang web của Phòng Đào tạo có thể truy cập tại https://hcmus.edu.vn/phong-dao-tao/.
+Response: Phòng Đào tạo có trang web tại https://hcmus.edu.vn/phong-dao-tao/.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình chính xác, thông tin về địa chỉ trang web được cung cấp đầy đủ và chính xác."
+}
+Correct: ✅ 31/100 ✅
+
+------------------------------------------------
+
+Input: Cuộc thi Thách Thức có lịch sử từ khi nào?
+Output: Lịch sử của cuộc thi Thách Thức bắt đầu từ năm 2001.
+Response: Cuộc thi này có lịch sử từ năm 2001.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình chính xác, vì nó nêu rõ và đúng thời điểm bắt đầu của cuộc thi Thách Thức."
+}
+Correct: ✅ 32/100 ✅
+
+------------------------------------------------
+
+Input: Cuộc thi Thách Thức hướng đến mục đích gì?
+Output: Mục đích chính của cuộc thi Thách Thức là tạo một sân chơi học thuật dành cho sinh viên yêu thích Công Nghệ Thông Tin (CNTT).
+Response: Mục đích của cuộc thi là tạo ra một sân chơi học thuật dành cho sinh viên yêu thích công nghệ thông tin.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình đúng, vì nó có ý nghĩa tương đồng với câu hỏi về mục đích của cuộc thi Thách Thức."
+}
+Correct: ✅ 33/100 ✅
+
+------------------------------------------------
+
+Input: Ai là những người làm việc trong Phòng Công tác Sinh viên?
+Output: Phòng Công tác Sinh viên hiện có các giảng viên bao gồm ThS. Nguyễn Thị Ngọc Hân, ThS. Nguyễn Thị Thắm và ThS. Trần Quốc Đạt.
+Response: Phòng Công tác Sinh viên có các giảng viên như ThS. Nguyễn Thị Ngọc Hân, ThS. Nguyễn Thị Thắm và ThS. Trần Quốc Đạt.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình chính xác, nó cung cấp thông tin tương tự về những người làm việc trong Phòng Công tác Sinh viên."
+}
+Correct: ✅ 34/100 ✅
+
+------------------------------------------------
+
+Input: Ai là giám đốc của Viện Nghiên cứu Quản lý Lưu chuyển Hàng không?
+Output: GS.TS. Dương Nguyên Vũ là Director của Viện Nghiên cứu Quản lý Lưu chuyển Hàng không và cũng là thành viên của Hội đồng trường, đồng thời là một nhà giáo dục và nhà khoa học.
+Response: GS.TS. Dương Nguyên Vũ là người đứng đầu Viện Nghiên cứu Quản lý Lưu chuyển Hàng không, đồng thời là thành viên của Hội đồng trường.
+{
+    "correct": true,
+    "explain": "Câu trả lời và đầu ra của mô hình đều xác nhận GS.TS. Dương Nguyên Vũ là giám đốc của Viện Nghiên cứu Quản lý Lưu chuyển Hàng không, mặc dù thông tin chi tiết trong câu trả lời khác nhau một chút."
+}
+Correct: ✅ 35/100 ✅
+
+------------------------------------------------
+
+Input: ĐHQG-HCM có các lĩnh vực đào tạo nào?
+Output: ĐHQG-HCM đào tạo nhiều lĩnh vực như kỹ thuật công nghệ, khoa học tự nhiên, khoa học xã hội – nhân văn, khoa học kinh tế, khoa học sức khỏe và nông nghiệp.
+Response: ĐHQG-HCM đào tạo các lĩnh vực như kỹ thuật công nghệ, khoa học tự nhiên, khoa học xã hội - nhân văn, khoa học kinh tế, khoa học sức khỏe và nông nghiệp.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình chính xác."
+}
+Correct: ✅ 36/100 ✅
+
+------------------------------------------------
+
+Input: GS.TS. Nguyễn Thị Thanh Mai giữ vị trí gì tại Trung tâm Phát triển Thương hiệu và Kết nối cộng đồng?
+Output: GS.TS. Nguyễn Thị Thanh Mai đang giữ vị trí Giám đốc tại Trung tâm Phát triển Thương hiệu và Kết nối cộng đồng, và cũng là Hiệu trưởng của Trường Phổ thông Năng khiếu.
+Response: GS.TS. Nguyễn Thị Thanh Mai là Hiệu trưởng của Trường Phổ thông Năng khiếu và cũng là thành viên của Hội đồng trường.
+{
+    "correct": false,
+    "explain": "Câu trả lời của mô hình không chính xác do thiếu thông tin về vị trí Giám đốc tại Trung tâm Phát triển Thương hiệu và Kết nối cộng đồng."
+}
+Correct: ❌ 36/100 ❌
+
+------------------------------------------------
+
+Input: ThS. Cao Nghi Thục thuộc khoa nào tại trường?
+Output: ThS. Cao Nghi Thục thuộc khoa Toán Tin Học, và ông có email là cnthuc@hcmus.edu.vn.
+Response: ThS. Cao Nghi Thục là giảng viên thuộc khoa Toán Tin Học tại trường Đại học Khoa học Tự nhiên. Email của ông là cnthuc@hcmus.edu.vn.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình chính xác, vì cả hai thông tin đều đề cập đến việc ThS. Cao Nghi Thục thuộc khoa Toán Tin Học tại trường."
+}
+Correct: ✅ 37/100 ✅
+
+------------------------------------------------
+
+Input: Người đứng đầu bộ môn Hải dương - Khí tượng - Thủy văn là ai?
+Output: Người đứng đầu bộ môn Hải dương - Khí tượng - Thủy văn thuộc khoa Vật lý là Phó giáo sư, Tiến sĩ Võ Lương Hồng Phước.
+Response: Phó giáo sư, Tiến sĩ Võ Lương Hồng Phước là người đứng đầu bộ môn Hải dương - Khí tượng - Thủy văn thuộc khoa Vật lý.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình đề cập đến cùng một thông tin về người đứng đầu bộ môn Hải dương - Khí tượng - Thủy văn, do đó là chính xác và đồng nghĩa."
+}
+Correct: ✅ 38/100 ✅
+
+------------------------------------------------
+
+Input: Phòng Công tác Sinh viên có trang web nào?
+Output: Phòng Công tác Sinh viên có trang web tại https://hcmus.edu.vn/phong-cong-tac-sinh-vien/.
+Response: Phòng Công tác Sinh viên có trang web tại https://hcmus.edu.vn/phong-cong-tac-sinh-vien/.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình hoàn toàn chính xác và giống nhau về nội dung."
+}
+Correct: ✅ 39/100 ✅
+
+------------------------------------------------
+
+Input: Quy trình chọn chuyên ngành của sinh viên ngành Máy tính và CNTT là gì?
+Output: Sinh viên ngành Máy tính và CNTT sẽ tiến hành đăng ký chuyên ngành sau khi hoàn thành 2 năm học đầu tiên, với các lựa chọn bao gồm Công nghệ Thông tin, Hệ thống Thông tin, Khoa học Máy tính, Kỹ thuật Phần mềm, và Trí tuệ nhân tạo, giúp họ định hướng vào các lĩnh vực kỹ thuật và công nghệ.
+Response: Sinh viên ngành Máy tính và CNTT sẽ chọn chuyên ngành sau 2 năm học, bao gồm các chuyên ngành như Công nghệ Thông tin, Hệ thống Thông tin, Khoa học Máy tính, Kỹ thuật Phần mềm, và Trí tuệ nhân tạo.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình chính xác, nội dung đều đề cập đến quy trình chọn chuyên ngành sau 2 năm học và liệt kê các chuyên ngành tương tự."
+}
+Correct: ✅ 40/100 ✅
+
+------------------------------------------------
+
+Input: ĐHQG-HCM hiện đang đào tạo bao nhiêu ngành học ở trình độ thạc sĩ?
+Output: ĐHQG-HCM đang đào tạo 125 ngành học ở trình độ thạc sĩ, với mục tiêu nâng cao năng lực chuyên môn và đáp ứng nhu cầu phát triển nghề nghiệp của sinh viên.
+Response: ĐHQG-HCM hiện đang đào tạo 125 ngành học ở trình độ thạc sĩ, nhằm đáp ứng nhu cầu học tập chuyên sâu của học viên sau đại học.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình chính xác về số lượng ngành học và mục đích đào tạo."
+}
+Correct: ✅ 41/100 ✅
+
+------------------------------------------------
+
+Input: Khi nào Trường Đại học Tổng hợp TP. HCM được khai trương?
+Output: Trường Đại học Tổng hợp TP. HCM được khai trương vào năm 1977, dựa trên sự sáp nhập giữa Trường Đại học Khoa học và Đại học Văn khoa.
+Response: Trường Đại học Tổng hợp TP. HCM được khai trương vào ngày 23/11/1977, sau khi hoàn thành việc chuyển đổi và sáp nhập các trường đại học thành viên.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình chính xác về thời gian khai trương và quá trình sáp nhập."
+}
+Correct: ✅ 42/100 ✅
+
+------------------------------------------------
+
+Input: Khoa Môi trường có những thông tin gì trên trang web của mình?
+Output: Trang web của Khoa Môi trường (http://www.environment.hcmus.edu.vn/) cung cấp thông tin về các khóa học, nghiên cứu và các hoạt động bảo vệ môi trường của khoa.
+Response: Trang web của Khoa Môi trường (http://www.environment.hcmus.edu.vn/) cung cấp thông tin về các khóa học, nghiên cứu và các hoạt động bảo vệ môi trường của khoa.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình trùng khớp với thông tin đã đưa ra, cả hai đều đề cập đến nội dung của trang web Khoa Môi trường."
+}
+Correct: ✅ 43/100 ✅
+
+------------------------------------------------
+
+Input: Những ngành thuộc khoa học tự nhiên được đào tạo tại ĐHQG-HCM?
+Output: ĐHQG-HCM đào tạo 138 ngành học, trong đó có nhiều ngành thuộc lĩnh vực khoa học tự nhiên, ví dụ như toán học, vật lý, hóa học, sinh học, cùng với nhiều ngành khác thuộc lĩnh vực này.
+Response: ĐHQG-HCM đào tạo các ngành thuộc khoa học tự nhiên như toán học, vật lý, hóa học, sinh học, v.v. trong chương trình đào tạo đại học và sau đại học.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình đúng về mặt ngữ nghĩa vì đều đề cập đến các ngành thuộc khoa học tự nhiên được đào tạo tại ĐHQG-HCM."
+}
+Correct: ✅ 44/100 ✅
+
+------------------------------------------------
+
+Input: Trạm Y tế của trường nằm ở đâu?
+Output: Có, Trạm Y tế có văn phòng tại hai địa điểm, đó là E.02 trong tòa E và D.101 trong tòa D, nơi bạn có thể liên hệ ngoài sử dụng số điện thoại.
+Response: Trạm Y tế của trường nằm tại E.02, tòa E và D.101, tòa D.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình chính xác vì nó xác định đúng vị trí của Trạm Y tế theo thông tin cung cấp."
+}
+Correct: ✅ 45/100 ✅
+
+------------------------------------------------
+
+Input: Những khoa nào thuộc Trường Đại học Khoa học tự nhiên liên quan đến khoa học tự nhiên?
+Output: Trường Đại học Khoa học tự nhiên có các khoa liên quan đến lĩnh vực khoa học tự nhiên như Khoa Toán – Tin học, Khoa Vật lý – Vật lý kỹ thuật, Khoa Hóa học, Khoa Sinh học – Công nghệ Sinh học, và Khoa Môi trường. Các khoa này đều có chương trình đào tạo và nghiên cứu khoa học kết nối với thực tiễn, đóng góp cho sự phát triển bền vững của đất nước.
+Response: Các khoa như Khoa Toán - Tin học, Khoa Vật lý - Vật lý kỹ thuật, Khoa Hóa học, và Khoa Sinh học - Công nghệ Sinh học của trường liên quan đến khoa học tự nhiên.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình đúng với nội dung câu hỏi, nêu rõ các khoa liên quan đến khoa học tự nhiên tại Trường Đại học Khoa học tự nhiên."
+}
+Correct: ✅ 46/100 ✅
+
+------------------------------------------------
+
+Input: Thời gian diễn ra Cuộc thi học thuật Thách Thức là bao lâu?
+Output: Cuộc thi diễn ra từ đầu tháng 3 đến giữa tháng 4 hàng năm.
+Response: Cuộc thi diễn ra từ đầu tháng 3 đến giữa tháng 4 hàng năm.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình chính xác và phản ánh đúng thông tin về thời gian diễn ra cuộc thi."
+}
+Correct: ✅ 47/100 ✅
+
+------------------------------------------------
+
+Input: ThS. Nguyễn Trần Duy Minh là ai và ông làm việc tại khoa nào với email ntdminh@fit.hcmus.edu.vn?
+Output: ThS. Nguyễn Trần Duy Minh là giảng viên có email ntdminh@fit.hcmus.edu.vn, và ông công tác tại Khoa Công nghệ thông tin.
+Response: ThS. Nguyễn Trần Duy Minh là một giảng viên thuộc khoa Công nghệ thông tin. Ông có email là ntdminh@fit.hcmus.edu.vn.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình đúng về thông tin cần thiết về ThS. Nguyễn Trần Duy Minh, bao gồm tên, vị trí công tác và địa chỉ email."
+}
+Correct: ✅ 48/100 ✅
+
+------------------------------------------------
+
+Input: ĐHQG-HCM đào tạo bao nhiêu ngành trình độ tiến sĩ?
+Output: ĐHQG-HCM đào tạo 89 ngành trình độ tiến sĩ, cung cấp các chương trình đào tạo chuyên sâu cho các nghiên cứu viên và giảng viên.
+Response: ĐHQG-HCM đào tạo 89 ngành trình độ tiến sĩ, phục vụ nhu cầu nghiên cứu và phát triển của xã hội.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình chính xác vì nó nêu rõ số lượng ngành đào tạo tiến sĩ mà ĐHQG-HCM cung cấp."
+}
+Correct: ✅ 49/100 ✅
+
+------------------------------------------------
+
+Input: Ai là Trưởng Phòng Tổ chức – Hành chính và đại diện cho VC-NLĐ trong Hội đồng trường?
+Output: ThS. Phùng Quán là người giữ vị trí Trưởng Phòng Tổ chức – Hành chính và cũng là thành viên của Hội đồng trường, đại diện cho VC-NLĐ.
+Response: ThS. Phùng Quán là Trưởng Phòng Tổ chức – Hành chính và đại diện cho VC-NLĐ trong Hội đồng trường.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình chính xác và đồng nghĩa với câu trả lời ban đầu."
+}
+Correct: ✅ 50/100 ✅
+
+------------------------------------------------
+
+Input: TS. Ngô Minh Nhựt là ai trong khoa Công nghệ thông tin?
+Output: Trong khoa Công nghệ thông tin, TS. Ngô Minh Nhựt là giảng viên, ông sử dụng địa chỉ email nmnhut@fit.hcmus.edu.vn.
+Response: TS. Ngô Minh Nhựt là giảng viên thuộc khoa Công nghệ thông tin của trường, ông có địa chỉ email là nmnhut@fit.hcmus.edu.vn.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình đúng vì cả hai đều xác nhận TS. Ngô Minh Nhựt là giảng viên trong khoa Công nghệ thông tin và cung cấp cùng một địa chỉ email."
+}
+Correct: ✅ 51/100 ✅
+
+------------------------------------------------
+
+Input: Để vào được chương trình liên kết quốc tế ngành CNTT, cần có những yếu tố gì?
+Output: Để được xét tuyển vào chương trình liên kết quốc tế ngành CNTT, điều kiện bao gồm cao là bạn cần có bằng tốt nghiệp THPT và vượt qua kỳ kiểm tra tiếng Anh đầu vào do ITEC tổ chức nếu chưa sở hữu bằng tiếng Anh quốc tế như IELTS 6.0.
+Response: Để vào được chương trình này, bạn cần có bằng tốt nghiệp THPT và tham gia kỳ thi đánh giá năng lực của ĐHQG-HCM hoặc sử dụng kết quả kỳ thi THPT để xét tuyển.
+{
+    "correct": false,
+    "explain": "Câu trả lời của mô hình không hoàn toàn chính xác vì nó không nhắc đến yêu cầu về tiếng Anh mà câu hỏi yêu cầu."
+}
+Correct: ❌ 51/100 ❌
+
+------------------------------------------------
+
+Input: Trong Cuộc thi học thuật Thách Thức, có bao nhiêu đội được giải thưởng trong vòng sơ tuyển?
+Output: Trong vòng sơ tuyển, 10 đội có điểm cao nhất sẽ nhận được giấy chứng nhận.
+Response: Có 10 đội được giải thưởng trong vòng sơ tuyển.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình chính xác và giữ nguyên ý nghĩa với câu trả lời của đề bài."
+}
+Correct: ✅ 52/100 ✅
+
+------------------------------------------------
+
+Input: Văn phòng Phòng Khảo thí đặt tại đâu?
+Output: Văn phòng của Phòng Khảo thí được đặt tại B04, tòa A, cơ sở NVC và có số điện thoại liên hệ là (028) 62884499.
+Response: Văn phòng của Phòng Khảo thí được đặt tại B04, tòa A, cơ sở NVC.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình chính xác vì nó cung cấp địa chỉ chính xác của Văn phòng Phòng Khảo thí, mặc dù không bao gồm số điện thoại nhưng vẫn đầy đủ thông tin cần thiết."
+}
+Correct: ✅ 53/100 ✅
+
+------------------------------------------------
+
+Input: Điều gì xảy ra với đội thi nếu họ không có mặt đúng giờ trong Cuộc thi học thuật Thách Thức?
+Output: Nếu không có mặt đúng giờ, đội thi sẽ bị loại khỏi cuộc thi.
+Response: Họ sẽ bị loại và không thể tham gia cuộc thi nữa.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình đúng với nội dung câu hỏi và duy trì ý nghĩa tương tự."
+}
+Correct: ✅ 54/100 ✅
+
+------------------------------------------------
+
+Input: Ai đang giữ chức vụ Trưởng phòng tổ chức hành chính?
+Output: Chức vụ Trưởng phòng tổ chức hành chính hiện được đảm nhiệm bởi ThS. Phùng Quán. Hai phó trưởng phòng là ThS. Nguyễn Thị Kim Chi và ThS. Phùng Lê Cang.
+Response: ThS. Phùng Quán là Trưởng phòng tổ chức hành chính, cùng với ThS. Nguyễn Thị Kim Chi và ThS. Phùng Lê Cang làm Phó trưởng phòng.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình đúng về người giữ chức vụ Trưởng phòng tổ chức hành chính, và cũng nhắc đến các phó trưởng phòng."
+}
+Correct: ✅ 55/100 ✅
+
+------------------------------------------------
+
+Input: ThS. Mai Anh Tuấn có địa chỉ mail nào?
+Output: Giảng viên ThS. Mai Anh Tuấn từ khoa Công nghệ thông tin có email là matuan@fit.hcmus.edu.vn.
+Response: ThS. Mai Anh Tuấn có địa chỉ mail là matuan@fit.hcmus.edu.vn, thuộc khoa Công nghệ thông tin.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình cung cấp thông tin đúng về địa chỉ email của ThS. Mai Anh Tuấn và thông tin về khoa mà ông thuộc về."
+}
+Correct: ✅ 56/100 ✅
+
+------------------------------------------------
+
+Input: Bạn có biết email của PGS.TS. Lý Quốc Ngọc không?
+Output: PGS.TS. Lý Quốc Ngọc, giảng viên của khoa Công nghệ thông tin, sở hữu địa chỉ email lqngoc@fit.hcmus.edu.vn.
+Response: PGS.TS. Lý Quốc Ngọc là giảng viên thuộc khoa Công nghệ thông tin của trường Đại học Khoa học Tự nhiên, và bạn có thể liên hệ với ông qua địa chỉ email lqngoc@fit.hcmus.edu.vn.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình cung cấp thông tin đúng về PGS.TS. Lý Quốc Ngọc và địa chỉ email của ông."
+}
+Correct: ✅ 57/100 ✅
+
+------------------------------------------------
+
+Input: Ai là Viện trưởng Viện tế bào gốc và thành viên Hội đồng trường?
+Output: PGS.TS. Phạm Văn Phúc, Viện trưởng Viện tế bào gốc, là thành viên của Hội đồng trường và đại diện cho giảng viên.
+Response: PGS.TS. Phạm Văn Phúc, Viện trưởng Viện tế bào gốc, là thành viên của Hội đồng trường và đại diện cho giảng viên.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình chính xác và trùng khớp với thông tin yêu cầu."
+}
+Correct: ✅ 58/100 ✅
+
+------------------------------------------------
+
+Input: Danh sách các vị khoa trưởng kế nhiệm tại Trường Đại học Khoa học Sài Gòn là gì?
+Output: Các khoa trưởng kế nhiệm tại Trường Đại học Khoa học Sài Gòn bao gồm GS.TSKH Lê Văn Thới (từ 1958 đến 1964), GS.TSKH Dương Thị Mai (Mai Trần Ngọc Tiếng) (từ 1964 đến 1965), và GS.TSKH Nguyễn Chung Tú (từ 1966 đến 1973).
+Response: Danh sách các vị khoa trưởng kế nhiệm tại Trường Đại học Khoa học Sài Gòn bao gồm GS.TSKH Lê Văn Thới (1958-1964), GS.TSKH Dương Thị Mai (1964-1965), và GS.TSKH Nguyễn Chung Tú (1966-1973).
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình cung cấp danh sách các vị khoa trưởng kế nhiệm tại Trường Đại học Khoa học Sài Gòn với thông tin đầy đủ và chính xác, chỉ khác ở định dạng thời gian nhưng vẫn giữ nguyên ý nghĩa."
+}
+Correct: ✅ 59/100 ✅
+
+------------------------------------------------
+
+Input: Xin cho biết thông tin về TS. Nguyễn Anh Thi?
+Output: TS. Nguyễn Anh Thi hiện là giảng viên tại khoa Toán Tin Học. Ông có địa chỉ email là nathi@hcmus.edu.vn.
+Response: TS. Nguyễn Anh Thi là giảng viên thuộc khoa Toán Tin Học tại trường Đại học Khoa học Tự nhiên, với thông tin liên hệ qua email nathi@hcmus.edu.vn.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình đúng về thông tin của TS. Nguyễn Anh Thi, cung cấp đầy đủ về vị trí giảng viên và email liên lạc."
+}
+Correct: ✅ 60/100 ✅
+
+------------------------------------------------
+
+Input: PGS.TS. Phạm Văn Phúc có phải là Viện trưởng Viện tế bào gốc không?
+Output: Đúng vậy, PGS.TS. Phạm Văn Phúc là Viện trưởng Viện tế bào gốc và cũng là thành viên Hội đồng trường, nơi ông đại diện cho giảng viên.
+Response: Có, PGS.TS. Phạm Văn Phúc là Viện trưởng của Viện tế bào gốc, nơi ông lãnh đạo các nghiên cứu về tế bào gốc và ứng dụng trong y học.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình chính xác vì đều khẳng định PGS.TS. Phạm Văn Phúc là Viện trưởng Viện tế bào gốc, mặc dù phần bổ sung về nghiên cứu và ứng dụng trong y học của mô hình không có trong câu hỏi."
+}
+Correct: ✅ 61/100 ✅
+
+------------------------------------------------
+
+Input: Đại học Quốc gia TP.HCM đạt được những thành tựu gì?
+Output: Đại học Quốc gia TP.HCM đã đạt được nhiều thành tựu nổi bật trong các lĩnh vực nghiên cứu khoa học, chuyển giao công nghệ, xếp hạng quốc tế, và đặc biệt là đào tạo nguồn nhân lực chất lượng cao cho xã hội.
+Response: ĐHQG-HCM đạt được thành tựu trong đào tạo, nghiên cứu và hợp tác quốc tế, trở thành một trong những đại học hàng đầu tại Việt Nam và khu vực Đông Nam Á.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình cũng đề cập đến những thành tựu của Đại học Quốc gia TP.HCM trong lĩnh vực đào tạo và nghiên cứu, mặc dù không cụ thể hóa như câu trả lời đầu tiên."
+}
+Correct: ✅ 62/100 ✅
+
+------------------------------------------------
+
+Input: Phần thưởng cho đội về nhì trong Cuộc thi Thách Thức là gì?
+Output: Đội về nhì trong Cuộc thi học thuật Thách Thức sẽ được nhận phần thưởng trị giá 10.000.000đ.
+Response: Phần thưởng cho đội về nhì trong Cuộc thi Thách Thức là 10.000.000đ.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình chính xác và phản ánh đúng giá trị phần thưởng cho đội về nhì."
+}
+Correct: ✅ 63/100 ✅
+
+------------------------------------------------
+
+Input: Để tham gia vòng chính thức của Cuộc thi học thuật Thách Thức, vòng sơ tuyển có bắt buộc không?
+Output: Đúng, để tham gia vòng chính thức, thí sinh cần phải vượt qua vòng sơ tuyển trước.
+Response: Vòng sơ tuyển là vòng bắt buộc, thí sinh phải vượt qua vòng này để tham gia vòng chính thức.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình đúng vì nó nêu rõ rằng vòng sơ tuyển là điều kiện bắt buộc để tham gia vòng chính thức."
+}
+Correct: ✅ 64/100 ✅
+
+------------------------------------------------
+
+Input: Mục đích của phần thi play-off trong Cuộc thi học thuật Thách Thức là gì?
+Output: Mục đích của phần thi play-off là để phân định thắng thua khi có từ 2 đội trở lên bằng điểm nhau.
+Response: Mục đích của phần thi play-off là để phân định thắng thua khi có từ 2 đội trở lên có điểm số bằng nhau.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình chính xác và có nội dung ngữ nghĩa giống nhau với câu hỏi."
+}
+Correct: ✅ 65/100 ✅
+
+------------------------------------------------
+
+Input: TS. Nguyễn Đăng Khoa là ai và công tác ở đâu?
+Output: TS. Nguyễn Đăng Khoa là giảng viên làm việc tại khoa Toán Tin Học thuộc trường Đại học Khoa học Tự nhiên. Ông sử dụng email ndkhoa@hcmus.edu.vn.
+Response: TS. Nguyễn Đăng Khoa là giảng viên thuộc khoa Toán Tin Học của trường Đại học Khoa học Tự nhiên. Ông có email là ndkhoa@hcmus.edu.vn.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình chính xác về thông tin người được hỏi, với ý nghĩa tương đồng và chỉ khác nhau về cách diễn đạt."
+}
+Correct: ✅ 66/100 ✅
+
+------------------------------------------------
+
+Input: Khoa nào có sự tham gia của ThS. Huỳnh Thanh?
+Output: ThS. Huỳnh Thanh làm việc ở khoa Toán Tin Học. Email liên hệ của ông là huynhthanh98vn@gmail.com.
+Response: ThS. Huỳnh Thanh là giảng viên của khoa Công nghệ thông tin và có địa chỉ email là huynhthanh98vn@gmail.com.
+{
+    "correct": false,
+    "explain": "Mô hình đã đưa ra câu trả lời không chính xác về khoa mà ThS. Huỳnh Thanh tham gia; ông làm việc ở khoa Toán Tin Học chứ không phải khoa Công nghệ thông tin."
+}
+Correct: ❌ 66/100 ❌
+
+------------------------------------------------
+
+Input: Bạn có thể giới thiệu về ThS. Cao Xuân Nam không?
+Output: ThS. Cao Xuân Nam là một giảng viên tại khoa Công nghệ thông tin. Ông có địa chỉ email là cxnam@fit.hcmus.edu.vn.
+Response: ThS. Cao Xuân Nam là một giảng viên thuộc khoa Công nghệ thông tin. Email của ông là cxnam@fit.hcmus.edu.vn.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình chính xác vì cả hai câu đều giới thiệu ThS. Cao Xuân Nam là giảng viên tại khoa Công nghệ thông tin và cung cấp địa chỉ email của ông."
+}
+Correct: ✅ 67/100 ✅
+
+------------------------------------------------
+
+Input: Mục đích chính của việc thành lập ĐHQG-HCM là gì?
+Output: Mục đích chính của việc thành lập ĐHQG-HCM là tạo ra một trung tâm đào tạo chất lượng cao, thúc đẩy nghiên cứu khoa học, công nghệ và phục vụ cộng đồng.
+Response: Mục đích chính của việc thành lập ĐHQG-HCM là tạo ra một trung tâm đào tạo đại học và nghiên cứu khoa học - công nghệ, đa ngành, đa lĩnh vực, đạt trình độ tiên tiến, đồng thời làm nòng cốt cho hệ thống giáo dục đại học.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình trình bày đúng mục đích chính của việc thành lập ĐHQG-HCM, mặc dù cách diễn đạt khác nhau nhưng ý nghĩa vẫn tương đồng."
+}
+Correct: ✅ 68/100 ✅
+
+------------------------------------------------
+
+Input: Khoa Vật lý, Vật lý Kỹ thuật có những ai trong Ban Phó Trưởng khoa?
+Output: Khoa Vật lý, Vật lý Kỹ thuật có ba Phó Trưởng khoa, bao gồm PGS.TS. Trần Thiện Thanh và TS. Đặng Hoài Trung. Những người này hỗ trợ Trưởng khoa trong công tác giảng dạy và nghiên cứu.
+Response: Khoa Vật lý, Vật lý Kỹ thuật có ba Phó Trưởng khoa, trong đó có PGS.TS. Trần Thiện Thanh và TS. Đặng Hoài Trung, hỗ trợ Trưởng khoa trong công tác giảng dạy và nghiên cứu.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình có ý nghĩa tương tự, liệt kê đúng các thành viên trong Ban Phó Trưởng khoa và chức năng của họ."
+}
+Correct: ✅ 69/100 ✅
+
+------------------------------------------------
+
+Input: Ai là các giảng viên trong Phòng Công tác Sinh viên?
+Output: Các giảng viên trong Phòng Công tác Sinh viên bao gồm ThS. Nguyễn Thị Ngọc Hân, ThS. Nguyễn Thị Thắm và ThS. Trần Quốc Đạt.
+Response: Các giảng viên trong Phòng Công tác Sinh viên bao gồm ThS. Nguyễn Thị Ngọc Hân, ThS. Nguyễn Thị Thắm và ThS. Trần Quốc Đạt.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình hoàn toàn khớp với câu trả lời ban đầu và đúng về danh sách giảng viên."
+}
+Correct: ✅ 70/100 ✅
+
+------------------------------------------------
+
+Input: Người giữ chức vụ Trưởng bộ môn Công nghệ phần mềm là ai?
+Output: Phó giáo sư, Tiến sĩ Nguyễn Văn Vũ đang giữ vị trí Trưởng bộ môn Công nghệ phần mềm trong khoa Công nghệ thông tin.
+Response: Trưởng bộ môn Công nghệ phần mềm là PGS. TS Nguyễn Văn Vũ, người đứng đầu bộ môn này thuộc khoa Công nghệ thông tin.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình cung cấp thông tin tương tự về người giữ chức vụ Trưởng bộ môn Công nghệ phần mềm, chỉ khác về cách diễn đạt."
+}
+Correct: ✅ 71/100 ✅
+
+------------------------------------------------
+
+Input: Giới thiệu về TS. Nguyễn Thị Mộng Ngọc và nơi bà công tác?
+Output: TS. Nguyễn Thị Mộng Ngọc là giảng viên của khoa Toán Tin Học tại trường Đại học Khoa học Tự nhiên. Bà có thể được liên hệ qua email ngtmngoc@hcmus.edu.vn.
+Response: TS. Nguyễn Thị Mộng Ngọc là giảng viên thuộc khoa Toán Tin Học của trường Đại học Khoa học Tự nhiên. Bà có email là ngtmngoc@hcmus.edu.vn.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình đúng với thông tin về TS. Nguyễn Thị Mộng Ngọc và nơi bà công tác, chỉ khác nhau về cấu trúc câu nhưng vẫn truyền đạt ý nghĩa tương tự."
+}
+Correct: ✅ 72/100 ✅
+
+------------------------------------------------
+
+Input: PGS.TS. Đinh Ngọc Thanh là ai và công tác ở đâu?
+Output: PGS.TS. Đinh Ngọc Thanh là một giảng viên tại khoa Toán Tin Học thuộc trường Đại học Khoa học Tự nhiên. Ông có thể được liên lạc qua email dnthanh@hcmus.edu.vn.
+Response: PGS.TS. Đinh Ngọc Thanh là giảng viên thuộc khoa Toán Tin Học của trường Đại học Khoa học Tự nhiên. Ông có email là dnthanh@hcmus.edu.vn.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình có ý nghĩa tương tự và cung cấp thông tin giống nhau về PGS.TS. Đinh Ngọc Thanh."
+}
+Correct: ✅ 73/100 ✅
+
+------------------------------------------------
+
+Input: Ai là người lãnh đạo Công đoàn Trường và tham gia Hội đồng trường?
+Output: ThS. Dương Thị Bích Huệ đang giữ vị trí Chủ tịch Công đoàn Trường và với vai trò này, bà cũng tham gia làm thành viên Hội đồng trường.
+Response: ThS. Dương Thị Bích Huệ là Chủ tịch Công đoàn Trường và cũng là thành viên của Hội đồng trường, đại diện cho giảng viên trong các quyết định quan trọng.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình chính xác và phản ánh đúng thông tin về vị trí và vai trò của ThS. Dương Thị Bích Huệ trong Công đoàn Trường và Hội đồng trường."
+}
+Correct: ✅ 74/100 ✅
+
+------------------------------------------------
+
+Input: Trường Đại học Công nghệ Thông tin trực thuộc ĐHQG-HCM có website là gì?
+Output: Trường Đại học Công nghệ Thông tin trực thuộc ĐHQG-HCM có website là www.uit.edu.vn.
+Response: Trường Đại học Công nghệ Thông tin trực thuộc ĐHQG-HCM có website là www.uit.edu.vn.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình chính xác"
+}
+Correct: ✅ 75/100 ✅
+
+------------------------------------------------
+
+Input: ThS. Đậu Ngọc Hà Dương là ai?
+Output: ThS. Đậu Ngọc Hà Dương hiện là giảng viên tại khoa Công nghệ thông tin của trường, bà có địa chỉ email là dnhduong@fit.hcmus.edu.vn.
+Response: ThS. Đậu Ngọc Hà Dương là một giảng viên thuộc khoa Công nghệ thông tin. Email của ông là dnhduong@fit.hcmus.edu.vn.
+{
+    "correct": false,
+    "explain": "Mô hình đã mắc lỗi trong việc xác định giới tính của ThS. Đậu Ngọc Hà Dương, nói ông thay vì bà."
+}
+Correct: ❌ 75/100 ❌
+
+------------------------------------------------
+
+Input: Thành lập Trường Cao đẳng Khoa học vào thời gian nào?
+Output: Thời điểm thành lập Trường Cao đẳng Khoa học là ngày 26/7/1941, và trường nằm dưới sự quản lý của Viện Đại học Đông Dương. Điều này đánh dấu bước tiến quan trọng trong việc phát triển hệ thống giáo dục tại Việt Nam.
+Response: Trường Cao đẳng Khoa học được thành lập vào ngày 26/7/1941, đánh dấu một bước ngoặt quan trọng trong việc phát triển giáo dục tại Việt Nam.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình chính xác và có ý nghĩa tương đồng với thông tin câu hỏi."
+}
+Correct: ✅ 76/100 ✅
+
+------------------------------------------------
+
+Input: Số lượng đội tham gia vòng chính thức của Cuộc thi Thách Thức là bao nhiêu?
+Output: Có tất cả 18 đội sẽ tham gia vào vòng chính thức của Cuộc thi học thuật Thách Thức.
+Response: Vòng chính thức của Cuộc thi Thách Thức có sự tham gia của 18 đội.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình chính xác vì thông tin số lượng đội tham gia là giống nhau."
+}
+Correct: ✅ 77/100 ✅
+
+------------------------------------------------
+
+Input: Năm thành lập của Đại học Quốc gia TPHCM là năm nào?
+Output: Đại học Quốc gia TPHCM (ĐHQG-HCM) được Chính phủ Việt Nam thành lập vào năm 1995 nhằm xây dựng một trung tâm đào tạo đại học, sau đại học và nghiên cứu khoa học – công nghệ đa ngành, đa lĩnh vực, chất lượng cao, đáp ứng nhu cầu phát triển kinh tế – xã hội.
+Response: Năm 1995 là năm thành lập của Đại học Quốc gia TP.HCM, đánh dấu sự kiện quan trọng trong việc hình thành một trung tâm đào tạo đại học hàng đầu tại TP.HCM.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình đúng vì cung cấp thông tin chính xác về năm thành lập của Đại học Quốc gia TPHCM."
+}
+Correct: ✅ 78/100 ✅
+
+------------------------------------------------
+
+Input: TS. Huỳnh Quang Vũ đang giữ vị trí gì tại trường?
+Output: TS. Huỳnh Quang Vũ hiện là Trưởng Khoa Toán – Tin học, đồng thời là đại diện giảng viên trong Hội đồng trường.
+Response: TS. Huỳnh Quang Vũ là Trưởng Khoa Toán Tin Học tại trường Đại học Khoa học Tự nhiên.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình cung cấp thông tin chính xác về vị trí của TS. Huỳnh Quang Vũ tại trường, tương đồng với câu hỏi."
+}
+Correct: ✅ 79/100 ✅
+
+------------------------------------------------
+
+Input: ĐHQG-HCM có quan hệ đối tác học thuật với những châu lục nào?
+Output: ĐHQG-HCM đã thành lập mạng lưới đối tác học thuật với các tổ chức giáo dục hàng đầu từ châu Á, châu Âu, châu Mỹ và châu Úc, tạo điều kiện cho việc trao đổi và học hỏi lẫn nhau trong lĩnh vực giáo dục.
+Response: ĐHQG-HCM có quan hệ đối tác học thuật với các tổ chức giáo dục hàng đầu từ châu Á, châu Âu, châu Mỹ và châu Úc, giúp trường luôn cập nhật các xu hướng giáo dục tiến bộ.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình có ý nghĩa giống nhau với câu trả lời ban đầu, đều nói về quan hệ đối tác học thuật của ĐHQG-HCM với các châu lục."
+}
+Correct: ✅ 80/100 ✅
+
+------------------------------------------------
+
+Input: Trường Đại học Khoa học Tự nhiên dự kiến đạt được điều gì vào năm 2025?
+Output: Trường Đại học Khoa học Tự nhiên dự kiến vào năm 2025 sẽ trở thành một trường đại học chuyên về nghiên cứu và đào tạo khoa học cơ bản cũng như công nghệ tiên tiến, hoàn thành mục tiêu tự chủ và phát triển bền vững.
+Response: Vào năm 2025, Trường Đại học Khoa học Tự nhiên đặt mục tiêu trở thành trường đại học nghiên cứu hàng đầu Châu Á, tập trung vào đào tạo và nghiên cứu khoa học, công nghệ nền tảng của kinh tế tri thức và kinh tế số.
+{
+    "correct": false,
+    "explain": "Câu trả lời của mô hình không chính xác vì mục tiêu cụ thể của mô hình nói đến việc trở thành trường đại học nghiên cứu hàng đầu Châu Á, trong khi câu trả lời gốc lại nhấn mạnh về việc tự chủ và phát triển bền vững."
+}
+Correct: ❌ 80/100 ❌
+
+------------------------------------------------
+
+Input: Ai giữ chức vụ Phó trưởng phòng thanh tra pháp chế?
+Output: ThS. Trương Quan Thế hiện là Phó trưởng phòng thanh tra pháp chế, làm việc cùng với trưởng phòng là ThS. Hà Minh Ninh.
+Response: ThS. Trương Quan Thế là Phó trưởng phòng thanh tra pháp chế, làm việc cùng trưởng phòng ThS. Hà Minh Ninh.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình chính xác và giữ nguyên ngữ nghĩa của câu hỏi."
+}
+Correct: ✅ 81/100 ✅
+
+------------------------------------------------
+
+Input: Thí sinh có điểm cao nhất ở vòng sơ tuyển Cuộc thi học thuật Thách Thức sẽ nhận được giải thưởng bao nhiêu?
+Output: Giải thưởng vòng sơ tuyển dành cho thí sinh có điểm cao nhất là 500.000 đồng.
+Response: Thí sinh có điểm cao nhất ở vòng sơ tuyển sẽ nhận được 500.000đ.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình chính xác khi diễn đạt thông tin giải thưởng cho thí sinh có điểm cao nhất ở vòng sơ tuyển."
+}
+Correct: ✅ 82/100 ✅
+
+------------------------------------------------
+
+Input: Chức vụ của PGS.TS. Trần Minh Triết tại trường là gì?
+Output: PGS.TS. Trần Minh Triết giữ vai trò quan trọng là Giám đốc Trung tâm Đào tạo Quốc tế và Phó Hiệu trưởng, đồng thời ông cũng là Trưởng phòng thí nghiệm Trí tuệ nhân tạo.
+Response: PGS.TS. Trần Minh Triết là Hiệu trưởng của Trường ĐH KHTN, đồng thời là thành viên của Hội đồng trường và tham gia các cuộc họp của Hội đồng trường.
+{
+    "correct": false,
+    "explain": "Câu trả lời của mô hình không chính xác vì nêu chức vụ khác với thông tin trong câu hỏi."
+}
+Correct: ❌ 82/100 ❌
+
+------------------------------------------------
+
+Input: Trong Cuộc thi học thuật Thách Thức, kết quả thi sẽ được công bố qua đâu?
+Output: Kết quả thi sẽ được công bố trên website và fanpage của cuộc thi.
+Response: Kết quả thi sẽ được công bố trên trang web và trang fanpage chính thức của cuộc thi.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình duy trì ý nghĩa tương đồng với câu hỏi, thông tin được cung cấp là chính xác."
+}
+Correct: ✅ 83/100 ✅
+
+------------------------------------------------
+
+Input: PGS.TS. Lê Vũ Tuấn Hùng có phải là Trưởng Khoa Vật lý – VLKT không?
+Output: Đúng vậy, PGS.TS. Lê Vũ Tuấn Hùng là Trưởng Khoa Vật lý – VLKT và đồng thời là đại diện giảng viên trong Hội đồng trường.
+Response: Có, PGS.TS. Lê Vũ Tuấn Hùng là Trưởng Khoa Vật lý – VLKT, nơi ông lãnh đạo các chương trình đào tạo và nghiên cứu về vật lý và công nghệ vật liệu.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình chính xác vì nó khẳng định đúng thông tin rằng PGS.TS. Lê Vũ Tuấn Hùng là Trưởng Khoa Vật lý – VLKT, mặc dù có thêm chi tiết về vai trò lãnh đạo các chương trình đào tạo và nghiên cứu."
+}
+Correct: ✅ 84/100 ✅
+
+------------------------------------------------
+
+Input: Email của PGS.TS. Lý Quốc Ngọc là gì?
+Output: Địa chỉ email của PGS.TS. Lý Quốc Ngọc, giảng viên tại khoa Công nghệ thông tin, là lqngoc@fit.hcmus.edu.vn.
+Response: PGS.TS. Lý Quốc Ngọc là giảng viên thuộc khoa Công nghệ thông tin của trường Đại học Khoa học Tự nhiên, và có thể liên hệ qua email lqngoc@fit.hcmus.edu.vn.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình chính xác vì nó cung cấp đúng địa chỉ email của PGS.TS. Lý Quốc Ngọc và thông tin về vị trí của ông tại khoa Công nghệ thông tin."
+}
+Correct: ✅ 85/100 ✅
+
+------------------------------------------------
+
+Input: Có ngành nào tại Trường Đại học Khoa học tự nhiên thuộc lĩnh vực khoa học sự sống không?
+Output: Có, trường có ngành đào tạo thuộc lĩnh vực khoa học sự sống, bao gồm Khoa Sinh học – Công nghệ Sinh học. Chương trình này được thiết kế nhằm nghiên cứu và ứng dụng công nghệ sinh học hiện đại, nhằm phát triển kỹ năng cho sinh viên trong lĩnh vực công nghiệp sinh học.
+Response: Có, ngành Khoa học sự sống là một trong những ngành học tại Trường Đại học Khoa học tự nhiên, nơi sinh viên có thể tìm hiểu về các quy luật và nguyên lý cơ bản của sự sống.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình đúng vì đều đề cập đến sự tồn tại của ngành thuộc lĩnh vực khoa học sự sống tại Trường Đại học Khoa học tự nhiên."
+}
+Correct: ✅ 86/100 ✅
+
+------------------------------------------------
+
+Input: PGS.TS. Lê Vũ Tuấn Hùng giữ chức vụ gì tại trường và Hội đồng trường?
+Output: PGS.TS. Lê Vũ Tuấn Hùng không chỉ là Trưởng Khoa Vật lý – VLKT mà còn là thành viên của Hội đồng trường, đóng vai trò đại diện cho các giảng viên.
+Response: PGS.TS. Lê Vũ Tuấn Hùng là Hiệu trưởng của trường và cũng là thành viên của Hội đồng trường, đại diện cho VC-NLĐ.
+{
+    "correct": false,
+    "explain": "Câu trả lời của mô hình không chính xác vì xác định sai chức vụ của PGS.TS. Lê Vũ Tuấn Hùng. Ông là Trưởng Khoa chứ không phải Hiệu trưởng."
+}
+Correct: ❌ 86/100 ❌
+
+------------------------------------------------
+
+Input: Thành viên Hội đồng trường nào đồng thời giữ chức Giám đốc ĐHQG-HCM?
+Output: Thành viên Hội đồng trường giữ chức Giám đốc ĐHQG-HCM là PGS.TS. Vũ Hải Quân, người cũng đang đảm nhiệm vị trí Bí thư Đảng ủy của ĐHQG-HCM.
+Response: PGS.TS. Vũ Hải Quân, với vai trò là Giám đốc ĐHQG-HCM, cũng là thành viên của Hội đồng trường, đại diện cho đơn vị đào tạo.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình chính xác vì cả hai đều đề cập đến PGS.TS. Vũ Hải Quân là thành viên Hội đồng trường và Giám đốc ĐHQG-HCM."
+}
+Correct: ✅ 87/100 ✅
+
+------------------------------------------------
+
+Input: Vị trí á quân của cuộc thi Học thuật Thách Thức năm 2024 thuộc về đội nào?
+Output: Vị trí á quân của cuộc thi Học thuật Thách Thức năm 2024 đã được trao cho đội Insect.
+Response: Đội Zhong đã giành được vị trí á quân trong cuộc thi Học thuật Thách Thức năm 2024.
+{
+    "correct": false,
+    "explain": "Câu trả lời của mô hình không chính xác, vì nó đưa ra thông tin về đội Zhong thay vì đội Insect."
+}
+Correct: ❌ 87/100 ❌
+
+------------------------------------------------
+
+Input: Làm thế nào để có thể điền form chứng nhận điểm rèn luyện?
+Output: Form chứng nhận điểm rèn luyện có thể được điền trực tuyến thông qua liên kết https://forms.office.com/Pages/ResponsePage.aspx?id=1HwSQPNFo0mwXTFaQ6nwM35NluEoXbZIssP2uQG4klxUMjE2ME00M0I3RzlMRDJFWUlOQlNFNVpIRC4u.
+Response: Để điền form chứng nhận điểm rèn luyện, bạn có thể truy cập trực tuyến qua liên kết https://forms.office.com/Pages/ResponsePage.aspx?id=1HwSQPNFo0mwXTFaQ6nwM35NluEoXbZIssP2uQG4klxUMjE2ME00M0I3RzlMRDJFWUlOQlNFNVpIRC4u
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình chính xác và có cùng ý nghĩa với câu hỏi."
+}
+Correct: ✅ 88/100 ✅
+
+------------------------------------------------
+
+Input: Quý quân của cuộc thi Học thuật Thách Thức năm 2024 là đội nào?
+Output: Quý quân của cuộc thi Học thuật Thách Thức năm 2024 là đội 5CLCsCan.
+Response: Đội Zhong đã trở thành quán quân của cuộc thi Học thuật Thách Thức năm 2024.
+{
+    "correct": false,
+    "explain": "Câu trả lời của mô hình không chính xác vì thông tin về quán quân không giống với thông tin được cung cấp."
+}
+Correct: ❌ 88/100 ❌
+
+------------------------------------------------
+
+Input: Ai giữ chức Giám đốc bộ môn Thị giác máy tính và điều khiển học thông minh?
+Output: Giám đốc bộ môn Thị giác máy tính và điều khiển học thông minh là Phó giáo sư, Tiến sĩ Lý Quốc Ngọc. Ông là người đứng đầu bộ môn này trong khuôn khổ Khoa Công nghệ thông tin.
+Response: Phó giáo sư, Tiến sĩ Lý Quốc Ngọc là người đứng đầu bộ môn này, thuộc khoa Công nghệ thông tin.
+{
+    "correct": true,
+    "explain": "Câu trả lời của mô hình cung cấp thông tin chính xác về người giữ chức vụ Giám đốc bộ môn Thị giác máy tính và điều khiển học thông minh."
+}
+Correct: ✅ 89/100 ✅
+
+------------------------------------------------

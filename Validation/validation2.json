@@ -1,0 +1,402 @@
+[
+    {
+        "input": "Ông ThS. Đỗ Nguyên Kha thuộc về khoa nào và có địa chỉ email ra sao?",
+        "output": "Ông ThS. Đỗ Nguyên Kha làm việc tại khoa Công nghệ thông tin, và địa chỉ email của ông là dngkha@fit.hcmus.edu.vn."
+    },
+    {
+        "input": "Có dịch vụ tư vấn tâm lý nào cho sinh viên tại trường không?",
+        "output": "Có, trường có dịch vụ tư vấn tâm lý dành cho sinh viên, giúp họ đối mặt với các thách thức trong học tập và cuộc sống. Các chuyên gia sẽ hỗ trợ sinh viên trong quá trình vượt qua khó khăn."
+    },
+    {
+        "input": "Có thông tin gì về ThS. Trần Anh Duy không?",
+        "output": "ThS. Trần Anh Duy là giảng viên của khoa Công nghệ thông tin, ông sử dụng địa chỉ email taduy@fit.hcmus.edu.vn."
+    },
+    {
+        "input": "PGS.TS Nguyễn Tuyết Phương có vai trò gì trong phòng đào tạo sau đại học?",
+        "output": "PGS.TS Nguyễn Tuyết Phương là trưởng phòng đào tạo sau đại học, và TS. Nguyễn Xuân Vinh đảm nhận vị trí phó trưởng phòng trong bộ phận này."
+    },
+    {
+        "input": "Ai là người đứng đầu phòng quan hệ đối ngoại trong trường?",
+        "output": "Trong trường, PGS.TS Ngô Đại Nghiệp đảm nhận vị trí Trưởng phòng quan hệ đối ngoại, và TS. Võ Hồng Hải là Phó trưởng phòng của phòng này."
+    },
+    {
+        "input": "Bà ThS. Đậu Ngọc Hà Dương làm việc ở đâu?",
+        "output": "Bà ThS. Đậu Ngọc Hà Dương làm việc tại khoa Công nghệ thông tin của trường và có địa chỉ email là dnhduong@fit.hcmus.edu.vn."
+    },
+    {
+        "input": "Có thông tin gì về email của ThS. Trần Duy Thảo?",
+        "output": "ThS. Trần Duy Thảo là một giảng viên của khoa Công nghệ thông tin và địa chỉ email của ông là tdthao@fit.hcmus.edu.vn."
+    },
+    {
+        "input": "Trong Cuộc thi học thuật Thách Thức, nếu đội thi rút lui, cần thông báo trước bao lâu?",
+        "output": "Đội thi cần thông báo ít nhất 3 ngày trước khi vòng thi bắt đầu."
+    },
+    {
+        "input": "Trong Cuộc thi học thuật Thách Thức, có cho phép sử dụng tài liệu tham khảo trong khi thi không?",
+        "output": "Không được phép sử dụng tài liệu tham khảo trong khi thi."
+    },
+    {
+        "input": "Thông tin về ThS. Nguyễn Ngọc Đức là gì?",
+        "output": "ThS. Nguyễn Ngọc Đức là một giảng viên tại khoa Công nghệ thông tin, địa chỉ email của ông là nnduc@fit.hcmus.edu.vn."
+    },
+    {
+        "input": "Xin cho biết thông tin về ThS. Đỗ Thị Thanh Hà.",
+        "output": "ThS. Đỗ Thị Thanh Hà hiện đang giảng dạy tại khoa Công nghệ thông tin. Bà có địa chỉ email là dthha@fit.hcmus.edu.vn."
+    },
+    {
+        "input": "Ai đang giữ chức vụ Trưởng Phòng Đào tạo SĐH và là thành viên Hội đồng trường?",
+        "output": "Trưởng Phòng Đào tạo SĐH là PGS.TS. Nguyễn Tuyết Phương, ngoài ra bà còn là Trưởng khoa KHLN và giảng viên của Khoa Hóa học."
+    },
+    {
+        "input": "Làm thế nào để liên hệ với Phòng Kế hoạch - Tài chính?",
+        "output": "Để liên hệ với Phòng Kế hoạch - Tài chính, bạn có thể gửi email đến taivu.khtn@gmail.com, truy cập trang web https://hcmus.edu.vn/phong-ke-hoach-tai-chinh/ hoặc gọi điện trực tiếp đến số (028) 38355275, văn phòng của họ đặt tại B01, tòa A, cơ sở NVC."
+    },
+    {
+        "input": "Những vùng khu vực nào trên thế giới đang hợp tác với ĐHQG-HCM về học thuật?",
+        "output": "ĐHQG-HCM đang hợp tác học thuật với các đối tác từ nhiều vùng trên thế giới, bao gồm châu Á, châu Âu, châu Mỹ và châu Úc, giúp mở rộng tầm nhìn giáo dục và cập nhật các phương pháp dạy và học tiên tiến."
+    },
+    {
+        "input": "Kỳ thi cuối năm học 1955-1956 của Đại học Khoa học tổ chức vào thời gian nào?",
+        "output": "Kỳ thi cuối năm học 1955-1956 của trường Đại học Khoa học diễn ra vào ngày 11/6/1956, với kết quả cho thấy 96 trong tổng số 326 sinh viên dự thi đã đạt yêu cầu."
+    },
+    {
+        "input": "Cách nào để xem lại các trận đấu trong Cuộc thi học thuật Thách Thức?",
+        "output": "Các trận đấu của Cuộc thi học thuật Thách Thức được phát lại trên kênh YouTube của ban tổ chức, giúp bạn có thể xem lại bất kỳ lúc nào."
+    },
+    {
+        "input": "Ai là Phó Trưởng khoa Vật lý, Vật lý Kỹ thuật?",
+        "output": "Khoa Vật lý, Vật lý Kỹ thuật có ba Phó Trưởng khoa, gồm PGS.TS. Trần Thiện Thanh, TS. Đặng Hoài Trung, những người này hỗ trợ Trưởng khoa trong việc quản lý các chương trình đào tạo và nghiên cứu tại khoa."
+    },
+    {
+        "input": "Trường Cao đẳng Khoa học được thành lập vào thời điểm nào trong lịch sử?",
+        "output": "Trường Cao đẳng Khoa học ra đời vào ngày 26/7/1941, và tương thuộc Viện Đại học Đông Dương, đánh dấu một mốc quan trọng trong sự phát triển của các cơ sở giáo dục tại Việt Nam trong giai đoạn đó."
+    },
+    {
+        "input": "Đại học Khoa học tự nhiên có những chương trình đại học nào khác biệt?",
+        "output": "Đại học Khoa học tự nhiên có các chương trình đại học khác biệt như chương trình cử nhân tài năng, chương trình tiên tiến và chương trình tăng cường tiếng Anh. Những chương trình này nhằm phát triển kỹ năng ngoại ngữ cũng như kiến thức chuyên môn cho sinh viên, giúp họ thích ứng và làm việc trong môi trường quốc tế."
+    },
+    {
+        "input": "Ai là giảng viên có tên TS. Võ Sĩ Trọng Long?",
+        "output": "Giảng viên TS. Võ Sĩ Trọng Long công tác tại khoa Toán Tin Học, và ông có địa chỉ email là vstlong@hcmus.edu.vn."
+    },
+    {
+        "input": "Trong Cuộc thi học thuật Thách Thức, Ban tổ chức có cung cấp chỗ ăn nghỉ cho các đội thi ở xa không?",
+        "output": "Ban tổ chức không cung cấp chỗ ăn nghỉ, các đội tự túc."
+    },
+    {
+        "input": "Ai là người lãnh đạo trường với vai trò Hiệu trưởng và Phó bí thư Đảng ủy?",
+        "output": "PGS.TS. Trần Lê Quan là người đang nắm giữ vai trò quan trọng này, đồng thời ông cũng là Phó Chủ tịch Hội đồng và thành viên Hội đồng trường, thể hiện sự đóng góp và tham gia rộng rãi trong các hoạt động của trường."
+    },
+    {
+        "input": "Ai là Trưởng Khoa Toán – Tin học và thành viên Hội đồng trường?",
+        "output": "TS. Huỳnh Quang Vũ, Trưởng Khoa Toán – Tin học, là thành viên của Hội đồng trường và đại diện cho giảng viên."
+    },
+    {
+        "input": "Có bao nhiêu trung tâm nghiên cứu tại Trường Đại học Khoa học tự nhiên?",
+        "output": "Trường Đại học Khoa học tự nhiên có tổng số 16 trung tâm nghiên cứu và dịch vụ đào tạo. Những trung tâm này hoạt động trong các lĩnh vực khoa học tự nhiên, công nghệ, ngôn ngữ và nhiều lĩnh vực khác, phục vụ cho công tác đào tạo cũng như nghiên cứu của trường."
+    },
+    {
+        "input": "Liệu có hình thức phạt nào đối với đội vi phạm quy chế tại Cuộc thi học thuật Thách Thức không?",
+        "output": "Có, nếu vi phạm quy chế, đội thi sẽ phải đối mặt với hình thức phạt, đó là bị cảnh cáo hoặc bị loại khỏi cuộc thi học thuật Thách Thức."
+    },
+    {
+        "input": "Đại diện giảng viên trong Hội đồng trường là ai?",
+        "output": "TS. Huỳnh Quang Vũ, hiện là Trưởng Khoa Toán – Tin học, đảm nhận vai trò đại diện giảng viên trong Hội đồng trường."
+    },
+    {
+        "input": "Đại diện giảng viên nào trong Hội đồng trường cũng là Trưởng Khoa Công nghệ Thông tin?",
+        "output": "Đại diện giảng viên trong Hội đồng trường đồng thời là Trưởng Khoa Công nghệ Thông tin là TS. Đinh Bá Tiến."
+    },
+    {
+        "input": "Thầy Bùi Tiến Lên có địa chỉ email nào?",
+        "output": "Thầy Bùi Tiến Lên, giảng viên khoa Công nghệ thông tin tại trường Đại học Khoa học Tự nhiên, có địa chỉ email là btlen@fit.hcmus.edu.vn."
+    },
+    {
+        "input": "Trong Cuộc thi học thuật Thách Thức, Ban tổ chức có cung cấp tài liệu ôn thi không?",
+        "output": "Ban tổ chức không cung cấp tài liệu ôn thi, thí sinh tự chuẩn bị."
+    },
+    {
+        "input": "ThS. Hồ Tuấn Thanh là ai?",
+        "output": "Ông Hồ Tuấn Thanh hiện đang là giảng viên tại khoa Công nghệ thông tin, và ông có địa chỉ email là httanh@fit.hcmus.edu.vn."
+    },
+    {
+        "input": "Có thường xuyên hiệu chỉnh các chương trình đào tạo tại Trường Đại học Khoa học tự nhiên không?",
+        "output": "Các chương trình đào tạo tại Trường Đại học Khoa học tự nhiên được điều chỉnh và cập nhật thường xuyên. Điều này góp phần đảm bảo rằng chương trình luôn phù hợp với nhu cầu thực tiễn của xã hội và tuân thủ các tiêu chuẩn kiểm định giáo dục quốc tế."
+    },
+    {
+        "input": "Giới thiệu về ThS. Lương Hán Cơ?",
+        "output": "ThS. Lương Hán Cơ là giảng viên của khoa Công nghệ thông tin, ông có email liên lạc là lhco@fit.hcmus.edu.vn."
+    },
+    {
+        "input": "Người giữ chức vụ Trưởng phòng khảo thí - đảm bảo chất lượng là ai?",
+        "output": "Trưởng phòng khảo thí - đảm bảo chất lượng hiện tại là TS. Trịnh Thanh Đèo, trong khi ThS. Nguyễn Thiện Triều là Phó trưởng phòng."
+    },
+    {
+        "input": "Ai giữ chức vụ trưởng bộ môn Địa chất Biển và Dầu khí?",
+        "output": "Bộ môn Địa chất Biển và Dầu khí được dẫn dắt bởi Tiến sĩ, Giảng viên chính Lê Đức Phúc thuộc khoa Địa chất."
+    },
+    {
+        "input": "Trường Đại học Khoa học Tự nhiên dự kiến đạt được điều gì vào năm 2025?",
+        "output": "Trường Đại học Khoa học Tự nhiên dự kiến vào năm 2025 sẽ trở thành một trường đại học chuyên về nghiên cứu và đào tạo khoa học cơ bản cũng như công nghệ tiên tiến, hoàn thành mục tiêu tự chủ và phát triển bền vững."
+    },
+    {
+        "input": "Bộ môn Khoa học máy tính được trực thuộc khoa nào?",
+        "output": "Bộ môn Khoa học máy tính thuộc về khoa Công nghệ thông tin, và hiện tại trưởng bộ môn là Giáo sư, Tiến sĩ Lê Hoài Bắc."
+    },
+    {
+        "input": "Cần biết địa chỉ email của TS. Bùi Tiến Lên?",
+        "output": "TS. Bùi Tiến Lên là giảng viên ở khoa Công nghệ thông tin tại trường Đại học Khoa học Tự nhiên. Ông sử dụng email là btlen@fit.hcmus.edu.vn."
+    },
+    {
+        "input": "Tại cơ sở nào TS. Nguyễn Đức Hoàng Hạ đang công tác?",
+        "output": "TS. Nguyễn Đức Hoàng Hạ hiện là giảng viên tại Khoa Công nghệ thông tin trường Đại học Khoa học Tự nhiên. Ông có địa chỉ email là ndhha@fit.hcmus.edu.vn."
+    },
+    {
+        "input": "Có bao nhiêu sinh viên đại học tại Trường Đại học Khoa học tự nhiên vào thời điểm hiện tại?",
+        "output": "Hiện tại, Trường Đại học Khoa học tự nhiên có hơn 15.000 sinh viên đại học. Con số này chứng tỏ sức hút cùng với uy tín mà trường mang lại cho các sinh viên trẻ khao khát học hỏi trong các lĩnh vực khoa học và công nghệ."
+    },
+    {
+        "input": "ThS. Trần Thị Bích Hạnh là ai trong Khoa Công nghệ thông tin với email ttbhanh@fit.hcmus.edu.vn?",
+        "output": "ThS. Trần Thị Bích Hạnh là giảng viên tại Khoa Công nghệ thông tin, và có địa chỉ email là ttbhanh@fit.hcmus.edu.vn."
+    },
+    {
+        "input": "Phần thưởng cho đội về nhì trong Cuộc thi Thách Thức là gì?",
+        "output": "Đội về nhì trong Cuộc thi học thuật Thách Thức sẽ được nhận phần thưởng trị giá 10.000.000đ."
+    },
+    {
+        "input": "Đoàn Thanh niên có trang web chính thức không?",
+        "output": "Có, trang web chính thức của Đoàn Thanh niên là http://doantn.hcmus.edu.vn/."
+    },
+    {
+        "input": "Tổng Giám đốc Công ty HPT đang giữ vị trí gì trong Hội đồng trường?",
+        "output": "Ông Đinh Hà Duy Linh, Tổng Giám đốc Công ty HPT, đồng thời là thành viên của Hội đồng trường."
+    },
+    {
+        "input": "Người đứng đầu bộ môn Công nghệ tri thức là ai?",
+        "output": "Người đứng đầu bộ môn Công nghệ tri thức của khoa Công nghệ thông tin hiện nay là Phó giáo sư, Tiến sĩ Nguyễn Đình Thúc."
+    },
+    {
+        "input": "Số lượng ngành tiến sĩ được đào tạo tại ĐHQG-HCM là bao nhiêu?",
+        "output": "ĐHQG-HCM cung cấp 89 ngành đào tạo trình độ tiến sĩ, giúp các nghiên cứu viên và giảng viên có thể phát triển chuyên môn sâu."
+    },
+    {
+        "input": "ĐHQG-HCM mang lại lợi ích gì cho xã hội?",
+        "output": "ĐHQG-HCM mang lại lợi ích cho xã hội bằng cách tạo ra một trung tâm đào tạo chất lượng cao, thúc đẩy nghiên cứu khoa học, công nghệ và phục vụ cộng đồng."
+    },
+    {
+        "input": "ThS. Nguyễn Thị Cẩm Loan có phải là Phó Trưởng Phòng Kế hoạch – Tài chính không?",
+        "output": "Đúng vậy, ThS. Nguyễn Thị Cẩm Loan là Phó Trưởng Phòng Kế hoạch – Tài chính và đồng thời là thành viên Hội đồng trường, đại diện cho VC-NLĐ."
+    },
+    {
+        "input": "Kết quả Cuộc thi học thuật Thách Thức sẽ được thông báo qua kênh nào?",
+        "output": "Kết quả sẽ được công bố trên website và trang fanpage chính thức của Cuộc thi học thuật Thách Thức."
+    },
+    {
+        "input": "Đội nào thắng chung kết Cuộc thi học thuật Thách Thức sẽ nhận được phần thưởng gì?",
+        "output": "Đội thắng chung kết sẽ nhận được phần thưởng hấp dẫn, bao gồm một cúp trang trọng và số tiền thưởng là 20.000.000 đồng."
+    },
+    {
+        "input": "Trước bao lâu đội thi cần phải thông báo việc rút lui khỏi Cuộc thi học thuật Thách Thức?",
+        "output": "Đội thi cần thông báo về việc rút lui ít nhất 3 ngày trước khi vòng thi của Cuộc thi học thuật Thách Thức bắt đầu."
+    },
+    {
+        "input": "Nơi công tác của PGS.TS. Lê Hoàng Thái là gì?",
+        "output": "PGS.TS. Lê Hoàng Thái hiện đang giảng dạy tại khoa Công nghệ thông tin ở trường Đại học Khoa học Tự nhiên. Ông cũng có địa chỉ email lhthai@fit.hcmus.edu.vn."
+    },
+    {
+        "input": "Làm thế nào để tôi có thể chuẩn bị cho Cuộc thi học thuật Thách Thức?",
+        "output": "Bạn cần tự chuẩn bị vì Ban tổ chức không cung cấp tài liệu ôn thi cho Cuộc thi học thuật Thách Thức"
+    },
+    {
+        "input": "ĐHQG-HCM hiện đang đào tạo bao nhiêu ngành học sau đại học?",
+        "output": "ĐHQG-HCM đang đào tạo 125 ngành thạc sĩ và 89 ngành tiến sĩ, nhằm phục vụ nhu cầu đào tạo sau đại học và nghiên cứu chuyên sâu cho các học viên."
+    },
+    {
+        "input": "Liệu đội thi tham gia Cuộc thi học thuật Thách Thức có cần thiết phải mặc đồng phục không?",
+        "output": "Mặc dù không phải là yêu cầu bắt buộc, việc đội thi mặc đồng phục vẫn được khuyến cáo để thể hiện sự gắn kết và đồng nhất."
+    },
+    {
+        "input": "ĐHQG-HCM đào tạo bao nhiêu ngành thạc sĩ và tiến sĩ?",
+        "output": "ĐHQG-HCM đào tạo 125 ngành thạc sĩ và 89 ngành tiến sĩ, phục vụ nhu cầu đào tạo sau đại học và nghiên cứu chuyên sâu."
+    },
+    {
+        "input": "Trường Đại học Khoa học Sài Gòn có vai trò gì trong lĩnh vực giáo dục?",
+        "output": "Trường Đại học Khoa học Sài Gòn được công nhận là trường khoa học cơ bản mạnh nhất thời kỳ đó và được xem là cái nôi cho nghiên cứu khoa học cơ bản tại Việt Nam."
+    },
+    {
+        "input": "Hình thức thi đấu của vòng bán kết trong Cuộc thi học thuật Thách Thức được tổ chức như thế nào?",
+        "output": "Vòng bán kết của Cuộc thi học thuật Thách Thức được tổ chức theo hình thức đối kháng giữa 3 đội thi."
+    },
+    {
+        "input": "Sau khi thắng ở vòng bán kết trong Cuộc thi học thuật Thách Thức, đội sẽ tham gia vòng thi nào tiếp theo?",
+        "output": "Sau khi thắng ở vòng bán kết, đội sẽ vào vòng chung kết, đây là vòng cuối cùng để xác định đội vô địch của Cuộc thi học thuật Thách Thức."
+    },
+    {
+        "input": "Khoa nào là nơi thuộc bộ môn Khoa học máy tính?",
+        "output": "Bộ môn Khoa học máy tính thuộc khoa Công nghệ thông tin, trong đó Giáo sư, Tiến sĩ Lê Hoài Bắc là trưởng bộ môn."
+    },
+    {
+        "input": "Người đứng đầu phòng tổ chức hành chính tại trường là ai?",
+        "output": "Người phụ trách phòng tổ chức hành chính tại trường là ThS. Phùng Quán, và ông được hỗ trợ bởi các phó trưởng phòng là ThS. Nguyễn Thị Kim Chi cùng ThS. Phùng Lê Cang."
+    },
+    {
+        "input": "Ông Đinh Hà Duy Linh giữ vị trí gì tại Công ty HPT và Hội đồng trường?",
+        "output": "Ông Đinh Hà Duy Linh hiện là Tổng Giám đốc của Công ty HPT và cũng là một thành viên của Hội đồng trường, với kinh nghiệm là cựu sinh viên và một doanh nhân."
+    },
+    {
+        "input": "Ông Vũ Đỗ Huy Cường làm việc tại khoa nào và email liên hệ của ông là gì?",
+        "output": "Ông TS. Vũ Đỗ Huy Cường giảng dạy tại khoa Toán Tin Học thuộc trường Đại học Khoa học Tự nhiên. Địa chỉ email của ông là vdhcuong@hcmus.edu.vn."
+    },
+    {
+        "input": "Có sự khác biệt nào trong điểm trúng tuyển giữa các tổ hợp môn thi hay không?",
+        "output": "Trường ĐH Khoa học Tự nhiên xét chung điểm trúng tuyển cho cùng một ngành, mặc dù các tổ hợp môn xét tuyển có sự khác nhau. Ví dụ, điểm trúng tuyển cho nhóm ngành Máy tính và CNTT với các tổ hợp A00, A01, D07, D08 đều là 26.00 vào năm 2017 và 22.75 vào năm 2018."
+    },
+    {
+        "input": "Xin cho biết về TS. Lê Văn Luyện?",
+        "output": "TS. Lê Văn Luyện là một giảng viên trong khoa Toán Tin Học ở trường Đại học Khoa học Tự nhiên. Ông sử dụng email lvluyen@hcmus.edu.vn để liên lạc."
+    },
+    {
+        "input": "Ai là người đứng đầu bộ môn Vật lý hạt nhân thuộc KTHN - VLYK?",
+        "output": "Người đứng đầu bộ môn Vật lý hạt nhân - KTHN - VLYK trong khoa Vật lý là Phó giáo sư, Tiến sĩ Trần Thiện Thanh."
+    },
+    {
+        "input": "Những lĩnh vực nông nghiệp nào được giảng dạy tại ĐHQG-HCM?",
+        "output": "ĐHQG-HCM giảng dạy các ngành học thuộc nhiều lĩnh vực nông nghiệp, bao gồm cả khoa học cây trồng, thú y, công nghệ sinh học và một số ngành khác liên quan đến nông nghiệp."
+    },
+    {
+        "input": "PGS.TS. Lê Vũ Tuấn Hùng có phải là Trưởng Khoa Vật lý – VLKT không?",
+        "output": "Đúng vậy, PGS.TS. Lê Vũ Tuấn Hùng là Trưởng Khoa Vật lý – VLKT và đồng thời là đại diện giảng viên trong Hội đồng trường."
+    },
+    {
+        "input": "Tên mới của Trường Đại học Khoa học Sài Gòn sau tháng 4/1975 là gì?",
+        "output": "Sau tháng 4/1975, sau khi miền Nam hoàn toàn giải phóng, Trường Khoa học Đại học Đường đổi tên thành Trường Đại học Khoa học, với GS.TS Nguyễn Hữu Chí giữ chức Trưởng ban phụ trách."
+    },
+    {
+        "input": "Số lượng phòng thí nghiệm trọng điểm tại Trường Đại học Khoa học tự nhiên là bao nhiêu?",
+        "output": "Trường Đại học Khoa học tự nhiên hiện có tổng cộng 4 phòng thí nghiệm trọng điểm cấp ĐHQG-HCM. Các phòng thí nghiệm này đóng góp rất lớn cho sự phát triển nghiên cứu khoa học và công nghệ trong trường."
+    },
+    {
+        "input": "Ai là người đứng đầu Khoa Sinh học - Công nghệ Sinh học?",
+        "output": "Người đứng đầu Khoa Sinh học - Công nghệ Sinh học là PGS.TS. Quách Ngô Diễm Phương, bà chịu trách nhiệm lãnh đạo các chương trình đào tạo và nghiên cứu về sinh học và công nghệ sinh học tại khoa."
+    },
+    {
+        "input": "Ai là giảng viên TS. Lê Văn Hợp?",
+        "output": "Giảng viên TS. Lê Văn Hợp hiện đang giảng dạy tại khoa Toán Tin Học của trường Đại học Khoa học Tự nhiên. Ông có địa chỉ email là lvhop@hcmus.edu.vn."
+    },
+    {
+        "input": "Nguyễn Ngọc Đức có chức vụ gì trong khoa Công nghệ thông tin?",
+        "output": "Nguyễn Ngọc Đức, với học vị ThS., là giảng viên của khoa Công nghệ thông tin. Ông có địa chỉ email là nnduc@fit.hcmus.edu.vn."
+    },
+    {
+        "input": "ThS. Dương Thị Bích Huệ có phải là Chủ tịch Công đoàn Trường không?",
+        "output": "Đúng vậy, ThS. Dương Thị Bích Huệ hiện là Chủ tịch Công đoàn Trường và đồng thời cũng là thành viên của Hội đồng trường."
+    },
+    {
+        "input": "Phó giáo sư, Tiến sĩ Đào Nguyên Khôi giữ chức vụ gì tại bộ môn Quản lý - Tin học môi trường?",
+        "output": "Phó giáo sư, Tiến sĩ Đào Nguyên Khôi là Trưởng bộ môn Quản lý - Tin học môi trường. Bộ môn này thuộc khoa Môi trường."
+    },
+    {
+        "input": "Vị trí á quân của cuộc thi Học thuật Thách Thức năm 2024 thuộc về đội nào?",
+        "output": "Vị trí á quân của cuộc thi Học thuật Thách Thức năm 2024 đã được trao cho đội Insect."
+    },
+    {
+        "input": "Trung tâm Hỗ trợ Sinh viên có thông tin liên hệ gì?",
+        "output": "Trung tâm Hỗ trợ Sinh viên (HTSV) có email liên hệ tthotrosinhvien@hcmus.edu.vn và trang web tại http://sacus.vn/. Số điện thoại của trung tâm là (028) 3832 0287 và văn phòng tại D.102A, tòa D."
+    },
+    {
+        "input": "TS. Lê Tự Thành giữ vị trí gì trong Khoa Môi trường?",
+        "output": "TS. Lê Tự Thành giữ vị trí Trưởng khoa Môi trường, nơi ông dẫn dắt các chương trình đào tạo và nghiên cứu, cũng như đảm bảo chất lượng giảng dạy và nghiên cứu khoa học."
+    },
+    {
+        "input": "Trường Đại học Khoa học Tự nhiên đặt mục tiêu gì đến năm 2030?",
+        "output": "Đến năm 2030, Trường Đại học Khoa học Tự nhiên mong muốn trở thành một trong 10 cơ sở giáo dục đại học hàng đầu tại Đông Nam Á và có những đóng góp tích cực vào chiến lược phát triển của ĐHQG-HCM và Tp. Hồ Chí Minh."
+    },
+    {
+        "input": "Hội Sinh viên có trụ sở tại phòng nào?",
+        "output": "Hội Sinh viên có trụ sở tại F.106, tòa F hoặc phòng 2.9, nằm trên tầng 2 của Nhà điều hành."
+    },
+    {
+        "input": "Vai trò của ĐHQG-HCM trong sự phát triển kinh tế - xã hội là gì?",
+        "output": "ĐHQG-HCM đóng vai trò quan trọng trong phát triển kinh tế - xã hội bằng cách cung cấp nguồn nhân lực chất lượng cao, tiến hành nghiên cứu và phát triển công nghệ, cũng như áp dụng các giải pháp khoa học vào thực tiễn cuộc sống."
+    },
+    {
+        "input": "Khoa Sinh học - Công nghệ Sinh học có trang web nào?",
+        "output": "Khoa Sinh học - Công nghệ Sinh học có trang web tại https://fbb.hcmus.edu.vn/."
+    },
+    {
+        "input": "Số lượng trung tâm nghiên cứu phục vụ đào tạo của Trường Đại học Khoa học tự nhiên là bao nhiêu?",
+        "output": "Tại Trường Đại học Khoa học tự nhiên, có tổng cộng 16 trung tâm nghiên cứu và dịch vụ đào tạo. Những trung tâm này hoạt động ở nhiều lĩnh vực như khoa học tự nhiên, công nghệ, ngôn ngữ và các lĩnh vực khác, góp phần xây dựng một môi trường học tập và nghiên cứu đa dạng cho sinh viên và giảng viên."
+    },
+    {
+        "input": "Những trường đại học nào trực thuộc Đại học Quốc gia TP.HCM?",
+        "output": "Các trường đại học trực thuộc ĐHQG-HCM gồm Trường ĐH Bách Khoa, Trường ĐH Khoa học Tự nhiên, Trường ĐH KHXH&NV, Trường ĐH Quốc Tế, Trường ĐH CNTT, Trường ĐH Kinh tế – Luật, Viện Môi trường – Tài nguyên và Trường ĐH An Giang."
+    },
+    {
+        "input": "Khoa của TS. Bùi Anh Tuấn là gì và ông có email nào?",
+        "output": "Giảng viên TS. Bùi Anh Tuấn làm việc tại khoa Toán Tin Học của trường Đại học Khoa học Tự nhiên. Email của ông được ghi nhận là batuan@hcmus.edu.vn."
+    },
+    {
+        "input": "Thông tin về vị trí lãnh đạo của PGS.TS. Trần Lê Quan tại trường là gì?",
+        "output": "PGS.TS. Trần Lê Quan hiện đảm nhiệm vai trò quan trọng với tư cách là Phó bí thư Đảng ủy và Hiệu trưởng của trường. Ngoài ra, ông còn tham gia vào Hội đồng trường với vai trò Phó Chủ tịch Hội đồng và là thành viên đương nhiên."
+    },
+    {
+        "input": "Điều kiện để đội hình dự bị được tham gia thi đấu trong Cuộc thi học thuật Thách Thức là gì?",
+        "output": "Đội hình dự bị chỉ được phép tham gia thi đấu nếu có thành viên chính thức rút lui trước khi cuộc thi bắt đầu."
+    },
+    {
+        "input": "ĐHQG-HCM được xếp hạng bởi tổ chức nào trong top 701-750?",
+        "output": "ĐHQG-HCM được Tổ chức Giáo dục Quacquarelli Symonds (QS) Anh quốc xếp hạng trong top 701-750, một thứ hạng mà trường đã duy trì được từ năm 2019 trong số hơn 1.000 trường đại học hàng đầu thuộc 82 quốc gia."
+    },
+    {
+        "input": "ĐHQG-HCM duy trì mục tiêu phát triển như thế nào?",
+        "output": "ĐHQG-HCM duy trì mục tiêu phát triển thông qua việc nâng cao chất lượng đào tạo, nghiên cứu và hợp tác quốc tế để đạt được tiêu chuẩn quốc tế trong giáo dục và nghiên cứu."
+    },
+    {
+        "input": "Những giá trị nào hình thành triết lý giáo dục của Trường Đại học Khoa học tự nhiên?",
+        "output": "Triết lý giáo dục của Trường Đại học Khoa học tự nhiên dựa trên các giá trị căn bản như 'Người học là trung tâm', 'Giáo dục toàn diện', và 'Kiến tạo tri thức'. Trường cũng khuyến khích sinh viên học tập suốt đời, phát triển kỹ năng cần thiết và đóng góp cho xã hội."
+    },
+    {
+        "input": "Mối quan hệ hợp tác quốc tế của Trường Đại học Khoa học tự nhiên đáng chú ý ở mức nào?",
+        "output": "Trường Đại học Khoa học tự nhiên đã xây dựng mối quan hệ hợp tác với hơn 60 tổ chức khoa học và trên 50 trường đại học, viện nghiên cứu danh tiếng từ 30 quốc gia và vùng lãnh thổ. Những mối quan hệ này giúp cải thiện chất lượng giảng dạy và nghiên cứu, đồng thời cung cấp nhiều cơ hội học tập cho sinh viên và giảng viên."
+    },
+    {
+        "input": "Cuộc thi học thuật Thách Thức có bao nhiêu đội được vào vòng chính thức?",
+        "output": "Đúng vậy, có 18 đội sẽ được vào vòng chính thức của Cuộc thi học thuật Thách Thức."
+    },
+    {
+        "input": "ThS. Nguyễn Thị Hiên là ai và bà làm việc ở đâu?",
+        "output": "ThS. Nguyễn Thị Hiên là một giảng viên tại khoa Toán Tin Học của trường Đại học Khoa học Tự nhiên. Địa chỉ email của bà là nthien@hcmus.edu.vn."
+    },
+    {
+        "input": "PGS.TS. Lê Vũ Tuấn Hùng giữ chức vụ gì tại trường và Hội đồng trường?",
+        "output": "PGS.TS. Lê Vũ Tuấn Hùng không chỉ là Trưởng Khoa Vật lý – VLKT mà còn là thành viên của Hội đồng trường, đóng vai trò đại diện cho các giảng viên."
+    },
+    {
+        "input": "Ai là người lãnh đạo Công đoàn Trường và tham gia Hội đồng trường?",
+        "output": "ThS. Dương Thị Bích Huệ đang giữ vị trí Chủ tịch Công đoàn Trường và với vai trò này, bà cũng tham gia làm thành viên Hội đồng trường."
+    },
+    {
+        "input": "PGS.TS. Đinh Ngọc Thanh là ai và công tác ở đâu?",
+        "output": "PGS.TS. Đinh Ngọc Thanh là một giảng viên tại khoa Toán Tin Học thuộc trường Đại học Khoa học Tự nhiên. Ông có thể được liên lạc qua email dnthanh@hcmus.edu.vn."
+    },
+    {
+        "input": "Giới thiệu về TS. Phan Thị Mỹ Duyên?",
+        "output": "TS. Phan Thị Mỹ Duyên là một giảng viên ở khoa Toán Tin Học trường Đại học Khoa học Tự nhiên, và bà có địa chỉ email là ptmduyen@hcmus.edu.vn."
+    },
+    {
+        "input": "Hội Sinh viên có trang thông tin điện tử riêng không?",
+        "output": "Có, Hội Sinh viên có trang web riêng tại https://www.facebook.com/hsvkhtn/ để thông tin và kết nối với sinh viên."
+    },
+    {
+        "input": "TS. Ngô Minh Nhựt là ai trong khoa Công nghệ thông tin?",
+        "output": "Trong khoa Công nghệ thông tin, TS. Ngô Minh Nhựt là giảng viên, ông sử dụng địa chỉ email nmnhut@fit.hcmus.edu.vn."
+    },
+    {
+        "input": "Thành viên nào của Hội đồng trường đến từ khối giảng viên?",
+        "output": "Một số thành viên của Hội đồng trường đến từ khối giảng viên bao gồm PGS.TS. Trần Linh Thước, GS.TS. Trần Nguyên Vũ, PGS.TS. Phạm Văn Phúc và nhiều người khác."
+    },
+    {
+        "input": "Thành viên nào của Hội đồng trường đang giữ chức vụ Phó Hiệu trưởng?",
+        "output": "PGS.TS. Trần Minh Triết là thành viên của Hội đồng trường và cũng là Phó Hiệu trưởng, đại diện cho VC-NLĐ trong hội đồng này."
+    }
+]
