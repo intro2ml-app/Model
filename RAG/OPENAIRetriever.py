@@ -61,6 +61,28 @@ class Retriever:
         merged_text = " ".join([row[0] for row in rows])
 
         return merged_text
+    
+    def get_nearby_text_chunks(self, id, title, near=1):
+        """Queries nearby text chunks by ID and title, and returns them as a merged string."""
+        # Calculate the range of chunks to retrieve based on the near parameter
+        left_bound = max(id - near, 1)  # Ensures the left bound doesn't go below 1
+        right_bound = id + near  # The right bound can go up to the total number of chunks for the given title
+
+        # Query to fetch nearby text chunks, ordered by ID
+        self.cur.execute(f"""
+            SELECT text_chunk
+            FROM {self.collection_name}
+            WHERE title = %s AND id BETWEEN %s AND %s
+            ORDER BY id ASC;
+        """, (title, left_bound, right_bound))
+
+        # Fetch all the results (nearby text chunks)
+        rows = self.cur.fetchall()
+
+        # Merge the nearby text chunks into a single string
+        merged_text = " ".join([row[0] for row in rows])
+
+        return merged_text
 
     def close_connection(self):
         """Closes the database connection."""

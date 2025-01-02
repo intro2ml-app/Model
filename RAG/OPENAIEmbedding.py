@@ -117,7 +117,7 @@ class EmbeddingDatabase:
 if __name__ == "__main__":
     # Load environment variables
     load_dotenv()
-    connection_string = os.getenv('CONNECTION_STRING_2')
+    connection_string = os.getenv('CONNECTION_STRING')
     print(f"Connection string: {connection_string}")
     # Initialize components
     webparser = WebParser()
