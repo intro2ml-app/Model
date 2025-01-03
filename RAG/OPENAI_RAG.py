@@ -50,6 +50,15 @@ class RAGModel(LLMBaseModel):
         for title in top_title:
             print(f"Title: {title}")
             document = self.retriever.get_text_chunks_by_title(title=title)
+            print(f"len(document): {len(document)}")
+            if len(document.split()) > 6000:
+                idx = -1
+                for result in results:
+                    if result['title'] == title:
+                        idx = result['id']
+                        break
+                if idx != -1:
+                    document = self.retriever.get_nearby_text_chunks(title=title, id=idx)
             top_documents.append(document)
             
         return top_documents[:min(top_k+1, len(top_documents))]
@@ -77,6 +86,7 @@ class RAGModel(LLMBaseModel):
         results = self.retrieve_top_document(user_query_text, top_n=3, top_k = 1)
         prompt = self.create_prompt(results, messages)
         self.message_history.append({"role": "user", "content": prompt})
+        print(f"Prompt: {prompt}")
         respone = self.llmsModel.chat.completions.create(
             model="gpt-4o-mini",
             messages=self.message_history,

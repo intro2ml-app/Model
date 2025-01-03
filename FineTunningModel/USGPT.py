@@ -23,9 +23,12 @@ class USGPT(LLMBaseModel):
     def __init__(self, api_key):
         super().__init__(api_key=api_key)
         self.url = os.getenv("USGPT_URL")
+        print(f"USGPT URL: {self.url}")
         
     def get_completion(self, messages, model="gpt-4o-mini", temperature=None, top_p=None, max_tokens=None, stream=False):
         # Formulate the request payload
+        load_dotenv()
+        self.url = os.getenv("USGPT_URL")
         payload = {
             "query": messages[-1]["content"]
         }
@@ -39,7 +42,7 @@ class USGPT(LLMBaseModel):
             
             # Parse the JSON response
             response_data = response.json()
-            
+            print(f"response_data from USGPT: {response_data}")
             # Extract the part of the response after "Output:"
             if "response" in response_data:
                 output_start = response_data["response"].find("### Output:") + len("### Output:")

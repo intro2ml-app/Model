@@ -1,0 +1,402 @@
+[
+    {
+        "input": "Ai là Phó Hiệu trưởng 1 và giữ chức Giám đốc Trung tâm Đào tạo Quốc tế?",
+        "output": "PGS.TS. Trần Minh Triết là Phó Hiệu trưởng 1 và giữ chức Giám đốc Trung tâm Đào tạo Quốc tế."
+    },
+    {
+        "input": "Thí sinh tham gia Cuộc thi học thuật Thách Thức cần đáp ứng yêu cầu gì về trình độ?",
+        "output": "Thí sinh không cần đáp ứng yêu cầu về trình độ chuyên môn, điều kiện duy nhất là phải là sinh viên của một trường đại học."
+    },
+    {
+        "input": "Trưởng bộ môn Hải dương - Khí tượng - Thủy văn là ai?",
+        "output": "Phó giáo sư, Tiến sĩ Võ Lương Hồng Phước là Trưởng bộ môn Hải dương - Khí tượng - Thủy văn, bộ môn này thuộc khoa Vật lý."
+    },
+    {
+        "input": "Tôi có thể tìm thấy Trường Đại học Khoa học Tự nhiên, ĐHQG-HCM ở địa chỉ nào?",
+        "output": "Trường Đại học Khoa học Tự nhiên, ĐHQG-HCM có địa chỉ tại 227 Nguyễn Văn Cừ, Phường 4, Quận 5, Tp.HCM."
+    },
+    {
+        "input": "Thư viện có trang web nào?",
+        "output": "Thư viện có trang web tại https://glib.hcmus.edu.vn/."
+    },
+    {
+        "input": "Biểu mẫu ở đâu có thể sử dụng cho các công tác sinh viên?",
+        "output": "Biểu mẫu dành cho các công tác sinh viên có thể truy cập tại https://hcmus.edu.vn/bieu-mau-phong-cong-tac-sinh-vien/."
+    },
+    {
+        "input": "Ai là Tổng Giám đốc Công ty Redsun và thành viên Hội đồng trường?",
+        "output": "Tổng Giám đốc Công ty Redsun là ông Diệp Bảo Cánh. Ông là cựu sinh viên, doanh nhân, đại diện cho đơn vị sử dụng lao động trong Hội đồng trường."
+    },
+    {
+        "input": "Ai là Phó Bí thư Đảng ủy và Phó Chủ tịch Hội đồng trường?",
+        "output": "Phó Bí thư Đảng ủy và Phó Chủ tịch Hội đồng trường là PGS.TS. Trần Lê Quan. Ông là Hiệu trưởng của trường."
+    },
+    {
+        "input": "TS. Bùi Xuân Thắng là ai và ông giảng dạy tại đâu không?",
+        "output": "TS. Bùi Xuân Thắng là giảng viên của Khoa Toán Tin Học tại trường Đại học Khoa học Tự nhiên. Email liên hệ của ông là bxthang@hcmus.edu.vn."
+    },
+    {
+        "input": "Ai đang giữ vị trí Viện trưởng Viện tế bào gốc và đồng thời là thành viên Hội đồng trường?",
+        "output": "Hiện tại, PGS.TS. Phạm Văn Phúc là Viện trưởng Viện tế bào gốc và cũng là đại diện giảng viên trong Hội đồng trường."
+    },
+    {
+        "input": "Người đứng đầu bộ môn Công nghệ tri thức là ai?",
+        "output": "Người đứng đầu bộ môn Công nghệ tri thức của khoa Công nghệ thông tin hiện nay là Phó giáo sư, Tiến sĩ Nguyễn Đình Thúc."
+    },
+    {
+        "input": "Hội Sinh viên của trường có địa chỉ liên hệ nào?",
+        "output": "Hội Sinh viên có nhiều phương thức liên hệ, bao gồm email hoisinhvien@hcmus.edu.vn, trang web https://www.facebook.com/hsvkhtn/, số điện thoại (028) 38354008 và hai văn phòng tại F.106, tòa F hoặc phòng 2.9, tầng 2, Nhà điều hành."
+    },
+    {
+        "input": "Có bao nhiêu đối tác quốc tế mà Trường Đại học Khoa học tự nhiên đang hợp tác?",
+        "output": "Trường Đại học Khoa học tự nhiên hiện có mối quan hệ hợp tác với trên 60 tổ chức khoa học và hơn 50 trường đại học, viện nghiên cứu danh tiếng từ 30 quốc gia và vùng lãnh thổ. Hợp tác quốc tế này hỗ trợ nâng cao chất lượng giảng dạy và nghiên cứu tại trường, đồng thời mở ra nhiều cơ hội cho sinh viên và giảng viên."
+    },
+    {
+        "input": "Ở những khu vực nào trên thế giới mà ĐHQG-HCM có mối quan hệ hợp tác học thuật?",
+        "output": "ĐHQG-HCM có mạng lưới đối tác học thuật trên nhiều châu lục, bao gồm châu Á, châu Âu, châu Mỹ và châu Úc, giúp trường có thể tiếp cận và cập nhật các xu hướng giáo dục mới nhất, đồng thời mở rộng cơ hội hợp tác quốc tế."
+    },
+    {
+        "input": "Khoa của ThS. Lê Thị Tuyết Nhung là gì?",
+        "output": "ThS. Lê Thị Tuyết Nhung công tác tại khoa Toán Tin Học. Email liên hệ của cô là lttnhung@hcmus.edu.vn."
+    },
+    {
+        "input": "Cụ thể nội dung thi của Cuộc thi học thuật Thách Thức là gì?",
+        "output": "Nội dung thi của Cuộc thi học thuật Thách Thức chủ yếu tập trung vào kiến thức về Công nghệ thông tin."
+    },
+    {
+        "input": "Danh tính của các Phó Trưởng khoa Vật lý, Vật lý Kỹ thuật là ai?",
+        "output": "Khoa Vật lý, Vật lý Kỹ thuật có ba Phó Trưởng khoa, bao gồm PGS.TS. Trần Thiện Thanh và TS. Đặng Hoài Trung, cùng một người nữa, những người này hỗ trợ Trưởng khoa trong việc quản lý các chương trình đào tạo và nghiên cứu tại khoa."
+    },
+    {
+        "input": "Cuộc thi học thuật Thách Thức có áp dụng hình thức thi trực tuyến không?",
+        "output": "Cuộc thi chỉ áp dụng thi trực tiếp tại địa điểm tổ chức."
+    },
+    {
+        "input": "ThS. Ngô Ngọc Đăng Khoa làm việc tại khoa nào và địa chỉ email của ông là gì?",
+        "output": "ThS. Ngô Ngọc Đăng Khoa hiện là giảng viên trong khoa Công nghệ thông tin và địa chỉ email của ông là nndkhoa@fit.hcmus.edu.vn."
+    },
+    {
+        "input": "Có bao nhiêu phó Trưởng khoa Vật lý, Vật lý Kỹ thuật?",
+        "output": "Hiện tại, có ba Phó Trưởng khoa đang hỗ trợ Trưởng khoa Vật lý, Vật lý Kỹ thuật, bao gồm PGS.TS. Trần Thiện Thanh và TS. Đặng Hoài Trung, cùng một người nữa, những người này đóng vai trò quan trọng trong việc quản lý các chương trình đào tạo và nghiên cứu tại khoa."
+    },
+    {
+        "input": "Sinh viên ngành Máy tính và CNTT thường chọn chuyên ngành nào và khi nào?",
+        "output": "Các sinh viên ngành Máy tính và CNTT sẽ chọn chuyên ngành sau 2 năm học, bao gồm các chuyên ngành như Công nghệ Thông tin, Hệ thống Thông tin, Khoa học Máy tính, Kỹ thuật Phần mềm, và Trí tuệ nhân tạo, từ đó giúp họ chuyên sâu vào các ngành kỹ thuật và công nghệ."
+    },
+    {
+        "input": "Bạn có thể giới thiệu về TS. Võ Hoài Việt không?",
+        "output": "TS. Võ Hoài Việt là giảng viên tại khoa Công nghệ thông tin của trường, với địa chỉ email là vhviet@fit.hcmus.edu.vn."
+    },
+    {
+        "input": "Ai là Trưởng Khoa Vật lý – VLKT và cũng tham gia Hội đồng trường?",
+        "output": "PGS.TS. Lê Vũ Tuấn Hùng là người lãnh đạo Khoa Vật lý – VLKT và đồng thời là thành viên của Hội đồng trường, nơi ông đại diện cho đội ngũ giảng viên của trường."
+    },
+    {
+        "input": "Ai đang giữ chức vụ Trưởng khoa tại Khoa Môi trường?",
+        "output": "Trưởng khoa Khoa Môi trường hiện tại là TS. Lê Tự Thành, ông chịu trách nhiệm về các chương trình đào tạo về môi trường và các nghiên cứu khoa học liên quan đến bảo vệ môi trường."
+    },
+    {
+        "input": "Thành viên nào của Hội đồng trường đang giữ chức vụ Phó Hiệu trưởng?",
+        "output": "PGS.TS. Trần Minh Triết là thành viên của Hội đồng trường và cũng là Phó Hiệu trưởng, đại diện cho VC-NLĐ trong hội đồng này."
+    },
+    {
+        "input": "Trường có giúp sinh viên tìm việc sau khi tốt nghiệp không?",
+        "output": "Có, trường có trung tâm hỗ trợ sinh viên trong việc tìm việc làm, tổ chức các chương trình hướng nghiệp và hội thảo, cùng với việc tạo cơ hội thực tập để sinh viên phát triển kỹ năng và tìm kiếm việc làm sau khi tốt nghiệp."
+    },
+    {
+        "input": "Các đơn vị trực thuộc và thành viên của ĐHQG-HCM là gì?",
+        "output": "ĐHQG-HCM có 27 đơn vị trực thuộc bao gồm các đơn vị đào tạo, nghiên cứu và chuyển giao công nghệ, bên cạnh đó còn có 8 đơn vị thành viên như Trường ĐH Bách Khoa, Trường ĐH Khoa học Tự nhiên, Trường ĐH KHXH&NV, Trường ĐH Quốc Tế."
+    },
+    {
+        "input": "Số lượng cơ sở của Trường ĐH Khoa học Tự nhiên và khu vực nào phục vụ cho đào tạo đại học chính quy là gì?",
+        "output": "Trường ĐH Khoa học Tự nhiên có hai cơ sở. Cơ sở chính phục vụ cho hệ đào tạo đại học chính quy nằm trong địa phận Khu đô thị ĐH Quốc gia TP.HCM ở TP. Thủ Đức, nơi sinh viên năm 1, 2 và 3 học tập."
+    },
+    {
+        "input": "Ai là trưởng khoa Khoa Điện tử - Viễn thông?",
+        "output": "Khoa Điện tử - Viễn thông được lãnh đạo bởi TS. Bùi Trọng Tú (trưởng khoa), người phụ trách việc điều hành và chỉ đạo các hoạt động liên quan đến đào tạo và nghiên cứu trong lĩnh vực điện tử và viễn thông."
+    },
+    {
+        "input": "Bạn có biết TS. Võ Sĩ Trọng Long đang làm việc ở khoa nào không?",
+        "output": "TS. Võ Sĩ Trọng Long công tác tại khoa Toán Tin Học. Ông cũng có thể được liên lạc qua email: vstlong@hcmus.edu.vn."
+    },
+    {
+        "input": "Đồng chí PGS.TS. Trần Thiện Thanh có phải là Phó Trưởng khoa của Khoa Vật lý, Vật lý Kỹ thuật hay không?",
+        "output": "Đúng vậy, PGS.TS. Trần Thiện Thanh là một trong ba Phó Trưởng khoa của Khoa Vật lý, Vật lý Kỹ thuật, cùng với TS. Đặng Hoài Trung. Cả hai hỗ trợ Trưởng khoa trong việc giảng dạy và nghiên cứu tại khoa này."
+    },
+    {
+        "input": "ThS. Lê Thị Tuyết Nhung làm việc ở đâu?",
+        "output": "ThS. Lê Thị Tuyết Nhung là giảng viên tại khoa Toán Tin Học, và địa chỉ email của cô là lttnhung@hcmus.edu.vn."
+    },
+    {
+        "input": "Trang web của Phòng Đào tạo là gì?",
+        "output": "Trang web của Phòng Đào tạo có thể truy cập tại https://hcmus.edu.vn/phong-dao-tao/."
+    },
+    {
+        "input": "Cuộc thi Thách Thức có lịch sử từ khi nào?",
+        "output": "Lịch sử của cuộc thi Thách Thức bắt đầu từ năm 2001."
+    },
+    {
+        "input": "Cuộc thi Thách Thức hướng đến mục đích gì?",
+        "output": "Mục đích chính của cuộc thi Thách Thức là tạo một sân chơi học thuật dành cho sinh viên yêu thích Công Nghệ Thông Tin (CNTT)."
+    },
+    {
+        "input": "Ai là những người làm việc trong Phòng Công tác Sinh viên?",
+        "output": "Phòng Công tác Sinh viên hiện có các giảng viên bao gồm ThS. Nguyễn Thị Ngọc Hân, ThS. Nguyễn Thị Thắm và ThS. Trần Quốc Đạt."
+    },
+    {
+        "input": "Ai là giám đốc của Viện Nghiên cứu Quản lý Lưu chuyển Hàng không?",
+        "output": "GS.TS. Dương Nguyên Vũ là Director của Viện Nghiên cứu Quản lý Lưu chuyển Hàng không và cũng là thành viên của Hội đồng trường, đồng thời là một nhà giáo dục và nhà khoa học."
+    },
+    {
+        "input": "ĐHQG-HCM có các lĩnh vực đào tạo nào?",
+        "output": "ĐHQG-HCM đào tạo nhiều lĩnh vực như kỹ thuật công nghệ, khoa học tự nhiên, khoa học xã hội – nhân văn, khoa học kinh tế, khoa học sức khỏe và nông nghiệp."
+    },
+    {
+        "input": "GS.TS. Nguyễn Thị Thanh Mai giữ vị trí gì tại Trung tâm Phát triển Thương hiệu và Kết nối cộng đồng?",
+        "output": "GS.TS. Nguyễn Thị Thanh Mai đang giữ vị trí Giám đốc tại Trung tâm Phát triển Thương hiệu và Kết nối cộng đồng, và cũng là Hiệu trưởng của Trường Phổ thông Năng khiếu."
+    },
+    {
+        "input": "ThS. Cao Nghi Thục thuộc khoa nào tại trường?",
+        "output": "ThS. Cao Nghi Thục thuộc khoa Toán Tin Học, và ông có email là cnthuc@hcmus.edu.vn."
+    },
+    {
+        "input": "Người đứng đầu bộ môn Hải dương - Khí tượng - Thủy văn là ai?",
+        "output": "Người đứng đầu bộ môn Hải dương - Khí tượng - Thủy văn thuộc khoa Vật lý là Phó giáo sư, Tiến sĩ Võ Lương Hồng Phước."
+    },
+    {
+        "input": "Phòng Công tác Sinh viên có trang web nào?",
+        "output": "Phòng Công tác Sinh viên có trang web tại https://hcmus.edu.vn/phong-cong-tac-sinh-vien/."
+    },
+    {
+        "input": "Quy trình chọn chuyên ngành của sinh viên ngành Máy tính và CNTT là gì?",
+        "output": "Sinh viên ngành Máy tính và CNTT sẽ tiến hành đăng ký chuyên ngành sau khi hoàn thành 2 năm học đầu tiên, với các lựa chọn bao gồm Công nghệ Thông tin, Hệ thống Thông tin, Khoa học Máy tính, Kỹ thuật Phần mềm, và Trí tuệ nhân tạo, giúp họ định hướng vào các lĩnh vực kỹ thuật và công nghệ."
+    },
+    {
+        "input": "ĐHQG-HCM hiện đang đào tạo bao nhiêu ngành học ở trình độ thạc sĩ?",
+        "output": "ĐHQG-HCM đang đào tạo 125 ngành học ở trình độ thạc sĩ, với mục tiêu nâng cao năng lực chuyên môn và đáp ứng nhu cầu phát triển nghề nghiệp của sinh viên."
+    },
+    {
+        "input": "Khi nào Trường Đại học Tổng hợp TP. HCM được khai trương?",
+        "output": "Trường Đại học Tổng hợp TP. HCM được khai trương vào năm 1977, dựa trên sự sáp nhập giữa Trường Đại học Khoa học và Đại học Văn khoa."
+    },
+    {
+        "input": "Khoa Môi trường có những thông tin gì trên trang web của mình?",
+        "output": "Trang web của Khoa Môi trường (http://www.environment.hcmus.edu.vn/) cung cấp thông tin về các khóa học, nghiên cứu và các hoạt động bảo vệ môi trường của khoa."
+    },
+    {
+        "input": "Những ngành thuộc khoa học tự nhiên được đào tạo tại ĐHQG-HCM?",
+        "output": "ĐHQG-HCM đào tạo 138 ngành học, trong đó có nhiều ngành thuộc lĩnh vực khoa học tự nhiên, ví dụ như toán học, vật lý, hóa học, sinh học, cùng với nhiều ngành khác thuộc lĩnh vực này."
+    },
+    {
+        "input": "Trạm Y tế của trường nằm ở đâu?",
+        "output": "Có, Trạm Y tế có văn phòng tại hai địa điểm, đó là E.02 trong tòa E và D.101 trong tòa D, nơi bạn có thể liên hệ ngoài sử dụng số điện thoại."
+    },
+    {
+        "input": "Những khoa nào thuộc Trường Đại học Khoa học tự nhiên liên quan đến khoa học tự nhiên?",
+        "output": "Trường Đại học Khoa học tự nhiên có các khoa liên quan đến lĩnh vực khoa học tự nhiên như Khoa Toán – Tin học, Khoa Vật lý – Vật lý kỹ thuật, Khoa Hóa học, Khoa Sinh học – Công nghệ Sinh học, và Khoa Môi trường. Các khoa này đều có chương trình đào tạo và nghiên cứu khoa học kết nối với thực tiễn, đóng góp cho sự phát triển bền vững của đất nước."
+    },
+    {
+        "input": "Thời gian diễn ra Cuộc thi học thuật Thách Thức là bao lâu?",
+        "output": "Cuộc thi diễn ra từ đầu tháng 3 đến giữa tháng 4 hàng năm."
+    },
+    {
+        "input": "ThS. Nguyễn Trần Duy Minh là ai và ông làm việc tại khoa nào với email ntdminh@fit.hcmus.edu.vn?",
+        "output": "ThS. Nguyễn Trần Duy Minh là giảng viên có email ntdminh@fit.hcmus.edu.vn, và ông công tác tại Khoa Công nghệ thông tin."
+    },
+    {
+        "input": "ĐHQG-HCM đào tạo bao nhiêu ngành trình độ tiến sĩ?",
+        "output": "ĐHQG-HCM đào tạo 89 ngành trình độ tiến sĩ, cung cấp các chương trình đào tạo chuyên sâu cho các nghiên cứu viên và giảng viên."
+    },
+    {
+        "input": "Ai là Trưởng Phòng Tổ chức – Hành chính và đại diện cho VC-NLĐ trong Hội đồng trường?",
+        "output": "ThS. Phùng Quán là người giữ vị trí Trưởng Phòng Tổ chức – Hành chính và cũng là thành viên của Hội đồng trường, đại diện cho VC-NLĐ."
+    },
+    {
+        "input": "TS. Ngô Minh Nhựt là ai trong khoa Công nghệ thông tin?",
+        "output": "Trong khoa Công nghệ thông tin, TS. Ngô Minh Nhựt là giảng viên, ông sử dụng địa chỉ email nmnhut@fit.hcmus.edu.vn."
+    },
+    {
+        "input": "Để vào được chương trình liên kết quốc tế ngành CNTT, cần có những yếu tố gì?",
+        "output": "Để được xét tuyển vào chương trình liên kết quốc tế ngành CNTT, điều kiện bao gồm cao là bạn cần có bằng tốt nghiệp THPT và vượt qua kỳ kiểm tra tiếng Anh đầu vào do ITEC tổ chức nếu chưa sở hữu bằng tiếng Anh quốc tế như IELTS 6.0."
+    },
+    {
+        "input": "Trong Cuộc thi học thuật Thách Thức, có bao nhiêu đội được giải thưởng trong vòng sơ tuyển?",
+        "output": "Trong vòng sơ tuyển, 10 đội có điểm cao nhất sẽ nhận được giấy chứng nhận."
+    },
+    {
+        "input": "Văn phòng Phòng Khảo thí đặt tại đâu?",
+        "output": "Văn phòng của Phòng Khảo thí được đặt tại B04, tòa A, cơ sở NVC và có số điện thoại liên hệ là (028) 62884499."
+    },
+    {
+        "input": "Điều gì xảy ra với đội thi nếu họ không có mặt đúng giờ trong Cuộc thi học thuật Thách Thức?",
+        "output": "Nếu không có mặt đúng giờ, đội thi sẽ bị loại khỏi cuộc thi."
+    },
+    {
+        "input": "Ai đang giữ chức vụ Trưởng phòng tổ chức hành chính?",
+        "output": "Chức vụ Trưởng phòng tổ chức hành chính hiện được đảm nhiệm bởi ThS. Phùng Quán. Hai phó trưởng phòng là ThS. Nguyễn Thị Kim Chi và ThS. Phùng Lê Cang."
+    },
+    {
+        "input": "ThS. Mai Anh Tuấn có địa chỉ mail nào?",
+        "output": "Giảng viên ThS. Mai Anh Tuấn từ khoa Công nghệ thông tin có email là matuan@fit.hcmus.edu.vn."
+    },
+    {
+        "input": "Bạn có biết email của PGS.TS. Lý Quốc Ngọc không?",
+        "output": "PGS.TS. Lý Quốc Ngọc, giảng viên của khoa Công nghệ thông tin, sở hữu địa chỉ email lqngoc@fit.hcmus.edu.vn."
+    },
+    {
+        "input": "Ai là Viện trưởng Viện tế bào gốc và thành viên Hội đồng trường?",
+        "output": "PGS.TS. Phạm Văn Phúc, Viện trưởng Viện tế bào gốc, là thành viên của Hội đồng trường và đại diện cho giảng viên."
+    },
+    {
+        "input": "Danh sách các vị khoa trưởng kế nhiệm tại Trường Đại học Khoa học Sài Gòn là gì?",
+        "output": "Các khoa trưởng kế nhiệm tại Trường Đại học Khoa học Sài Gòn bao gồm GS.TSKH Lê Văn Thới (từ 1958 đến 1964), GS.TSKH Dương Thị Mai (Mai Trần Ngọc Tiếng) (từ 1964 đến 1965), và GS.TSKH Nguyễn Chung Tú (từ 1966 đến 1973)."
+    },
+    {
+        "input": "Xin cho biết thông tin về TS. Nguyễn Anh Thi?",
+        "output": "TS. Nguyễn Anh Thi hiện là giảng viên tại khoa Toán Tin Học. Ông có địa chỉ email là nathi@hcmus.edu.vn."
+    },
+    {
+        "input": "PGS.TS. Phạm Văn Phúc có phải là Viện trưởng Viện tế bào gốc không?",
+        "output": "Đúng vậy, PGS.TS. Phạm Văn Phúc là Viện trưởng Viện tế bào gốc và cũng là thành viên Hội đồng trường, nơi ông đại diện cho giảng viên."
+    },
+    {
+        "input": "Đại học Quốc gia TP.HCM đạt được những thành tựu gì?",
+        "output": "Đại học Quốc gia TP.HCM đã đạt được nhiều thành tựu nổi bật trong các lĩnh vực nghiên cứu khoa học, chuyển giao công nghệ, xếp hạng quốc tế, và đặc biệt là đào tạo nguồn nhân lực chất lượng cao cho xã hội."
+    },
+    {
+        "input": "Phần thưởng cho đội về nhì trong Cuộc thi Thách Thức là gì?",
+        "output": "Đội về nhì trong Cuộc thi học thuật Thách Thức sẽ được nhận phần thưởng trị giá 10.000.000đ."
+    },
+    {
+        "input": "Để tham gia vòng chính thức của Cuộc thi học thuật Thách Thức, vòng sơ tuyển có bắt buộc không?",
+        "output": "Đúng, để tham gia vòng chính thức, thí sinh cần phải vượt qua vòng sơ tuyển trước."
+    },
+    {
+        "input": "Mục đích của phần thi play-off trong Cuộc thi học thuật Thách Thức là gì?",
+        "output": "Mục đích của phần thi play-off là để phân định thắng thua khi có từ 2 đội trở lên bằng điểm nhau."
+    },
+    {
+        "input": "TS. Nguyễn Đăng Khoa là ai và công tác ở đâu?",
+        "output": "TS. Nguyễn Đăng Khoa là giảng viên làm việc tại khoa Toán Tin Học thuộc trường Đại học Khoa học Tự nhiên. Ông sử dụng email ndkhoa@hcmus.edu.vn."
+    },
+    {
+        "input": "Khoa nào có sự tham gia của ThS. Huỳnh Thanh?",
+        "output": "ThS. Huỳnh Thanh làm việc ở khoa Toán Tin Học. Email liên hệ của ông là huynhthanh98vn@gmail.com."
+    },
+    {
+        "input": "Bạn có thể giới thiệu về ThS. Cao Xuân Nam không?",
+        "output": "ThS. Cao Xuân Nam là một giảng viên tại khoa Công nghệ thông tin. Ông có địa chỉ email là cxnam@fit.hcmus.edu.vn."
+    },
+    {
+        "input": "Mục đích chính của việc thành lập ĐHQG-HCM là gì?",
+        "output": "Mục đích chính của việc thành lập ĐHQG-HCM là tạo ra một trung tâm đào tạo chất lượng cao, thúc đẩy nghiên cứu khoa học, công nghệ và phục vụ cộng đồng."
+    },
+    {
+        "input": "Khoa Vật lý, Vật lý Kỹ thuật có những ai trong Ban Phó Trưởng khoa?",
+        "output": "Khoa Vật lý, Vật lý Kỹ thuật có ba Phó Trưởng khoa, bao gồm PGS.TS. Trần Thiện Thanh và TS. Đặng Hoài Trung. Những người này hỗ trợ Trưởng khoa trong công tác giảng dạy và nghiên cứu."
+    },
+    {
+        "input": "Ai là các giảng viên trong Phòng Công tác Sinh viên?",
+        "output": "Các giảng viên trong Phòng Công tác Sinh viên bao gồm ThS. Nguyễn Thị Ngọc Hân, ThS. Nguyễn Thị Thắm và ThS. Trần Quốc Đạt."
+    },
+    {
+        "input": "Người giữ chức vụ Trưởng bộ môn Công nghệ phần mềm là ai?",
+        "output": "Phó giáo sư, Tiến sĩ Nguyễn Văn Vũ đang giữ vị trí Trưởng bộ môn Công nghệ phần mềm trong khoa Công nghệ thông tin."
+    },
+    {
+        "input": "Giới thiệu về TS. Nguyễn Thị Mộng Ngọc và nơi bà công tác?",
+        "output": "TS. Nguyễn Thị Mộng Ngọc là giảng viên của khoa Toán Tin Học tại trường Đại học Khoa học Tự nhiên. Bà có thể được liên hệ qua email ngtmngoc@hcmus.edu.vn."
+    },
+    {
+        "input": "PGS.TS. Đinh Ngọc Thanh là ai và công tác ở đâu?",
+        "output": "PGS.TS. Đinh Ngọc Thanh là một giảng viên tại khoa Toán Tin Học thuộc trường Đại học Khoa học Tự nhiên. Ông có thể được liên lạc qua email dnthanh@hcmus.edu.vn."
+    },
+    {
+        "input": "Ai là người lãnh đạo Công đoàn Trường và tham gia Hội đồng trường?",
+        "output": "ThS. Dương Thị Bích Huệ đang giữ vị trí Chủ tịch Công đoàn Trường và với vai trò này, bà cũng tham gia làm thành viên Hội đồng trường."
+    },
+    {
+        "input": "Trường Đại học Công nghệ Thông tin trực thuộc ĐHQG-HCM có website là gì?",
+        "output": "Trường Đại học Công nghệ Thông tin trực thuộc ĐHQG-HCM có website là www.uit.edu.vn."
+    },
+    {
+        "input": "ThS. Đậu Ngọc Hà Dương là ai?",
+        "output": "ThS. Đậu Ngọc Hà Dương hiện là giảng viên tại khoa Công nghệ thông tin của trường, bà có địa chỉ email là dnhduong@fit.hcmus.edu.vn."
+    },
+    {
+        "input": "Thành lập Trường Cao đẳng Khoa học vào thời gian nào?",
+        "output": "Thời điểm thành lập Trường Cao đẳng Khoa học là ngày 26/7/1941, và trường nằm dưới sự quản lý của Viện Đại học Đông Dương. Điều này đánh dấu bước tiến quan trọng trong việc phát triển hệ thống giáo dục tại Việt Nam."
+    },
+    {
+        "input": "Số lượng đội tham gia vòng chính thức của Cuộc thi Thách Thức là bao nhiêu?",
+        "output": "Có tất cả 18 đội sẽ tham gia vào vòng chính thức của Cuộc thi học thuật Thách Thức."
+    },
+    {
+        "input": "Năm thành lập của Đại học Quốc gia TPHCM là năm nào?",
+        "output": "Đại học Quốc gia TPHCM (ĐHQG-HCM) được Chính phủ Việt Nam thành lập vào năm 1995 nhằm xây dựng một trung tâm đào tạo đại học, sau đại học và nghiên cứu khoa học – công nghệ đa ngành, đa lĩnh vực, chất lượng cao, đáp ứng nhu cầu phát triển kinh tế – xã hội."
+    },
+    {
+        "input": "TS. Huỳnh Quang Vũ đang giữ vị trí gì tại trường?",
+        "output": "TS. Huỳnh Quang Vũ hiện là Trưởng Khoa Toán – Tin học, đồng thời là đại diện giảng viên trong Hội đồng trường."
+    },
+    {
+        "input": "ĐHQG-HCM có quan hệ đối tác học thuật với những châu lục nào?",
+        "output": "ĐHQG-HCM đã thành lập mạng lưới đối tác học thuật với các tổ chức giáo dục hàng đầu từ châu Á, châu Âu, châu Mỹ và châu Úc, tạo điều kiện cho việc trao đổi và học hỏi lẫn nhau trong lĩnh vực giáo dục."
+    },
+    {
+        "input": "Trường Đại học Khoa học Tự nhiên dự kiến đạt được điều gì vào năm 2025?",
+        "output": "Trường Đại học Khoa học Tự nhiên dự kiến vào năm 2025 sẽ trở thành một trường đại học chuyên về nghiên cứu và đào tạo khoa học cơ bản cũng như công nghệ tiên tiến, hoàn thành mục tiêu tự chủ và phát triển bền vững."
+    },
+    {
+        "input": "Ai giữ chức vụ Phó trưởng phòng thanh tra pháp chế?",
+        "output": "ThS. Trương Quan Thế hiện là Phó trưởng phòng thanh tra pháp chế, làm việc cùng với trưởng phòng là ThS. Hà Minh Ninh."
+    },
+    {
+        "input": "Thí sinh có điểm cao nhất ở vòng sơ tuyển Cuộc thi học thuật Thách Thức sẽ nhận được giải thưởng bao nhiêu?",
+        "output": "Giải thưởng vòng sơ tuyển dành cho thí sinh có điểm cao nhất là 500.000 đồng."
+    },
+    {
+        "input": "Chức vụ của PGS.TS. Trần Minh Triết tại trường là gì?",
+        "output": "PGS.TS. Trần Minh Triết giữ vai trò quan trọng là Giám đốc Trung tâm Đào tạo Quốc tế và Phó Hiệu trưởng, đồng thời ông cũng là Trưởng phòng thí nghiệm Trí tuệ nhân tạo."
+    },
+    {
+        "input": "Trong Cuộc thi học thuật Thách Thức, kết quả thi sẽ được công bố qua đâu?",
+        "output": "Kết quả thi sẽ được công bố trên website và fanpage của cuộc thi."
+    },
+    {
+        "input": "PGS.TS. Lê Vũ Tuấn Hùng có phải là Trưởng Khoa Vật lý – VLKT không?",
+        "output": "Đúng vậy, PGS.TS. Lê Vũ Tuấn Hùng là Trưởng Khoa Vật lý – VLKT và đồng thời là đại diện giảng viên trong Hội đồng trường."
+    },
+    {
+        "input": "Email của PGS.TS. Lý Quốc Ngọc là gì?",
+        "output": "Địa chỉ email của PGS.TS. Lý Quốc Ngọc, giảng viên tại khoa Công nghệ thông tin, là lqngoc@fit.hcmus.edu.vn."
+    },
+    {
+        "input": "Có ngành nào tại Trường Đại học Khoa học tự nhiên thuộc lĩnh vực khoa học sự sống không?",
+        "output": "Có, trường có ngành đào tạo thuộc lĩnh vực khoa học sự sống, bao gồm Khoa Sinh học – Công nghệ Sinh học. Chương trình này được thiết kế nhằm nghiên cứu và ứng dụng công nghệ sinh học hiện đại, nhằm phát triển kỹ năng cho sinh viên trong lĩnh vực công nghiệp sinh học."
+    },
+    {
+        "input": "PGS.TS. Lê Vũ Tuấn Hùng giữ chức vụ gì tại trường và Hội đồng trường?",
+        "output": "PGS.TS. Lê Vũ Tuấn Hùng không chỉ là Trưởng Khoa Vật lý – VLKT mà còn là thành viên của Hội đồng trường, đóng vai trò đại diện cho các giảng viên."
+    },
+    {
+        "input": "Thành viên Hội đồng trường nào đồng thời giữ chức Giám đốc ĐHQG-HCM?",
+        "output": "Thành viên Hội đồng trường giữ chức Giám đốc ĐHQG-HCM là PGS.TS. Vũ Hải Quân, người cũng đang đảm nhiệm vị trí Bí thư Đảng ủy của ĐHQG-HCM."
+    },
+    {
+        "input": "Vị trí á quân của cuộc thi Học thuật Thách Thức năm 2024 thuộc về đội nào?",
+        "output": "Vị trí á quân của cuộc thi Học thuật Thách Thức năm 2024 đã được trao cho đội Insect."
+    },
+    {
+        "input": "Làm thế nào để có thể điền form chứng nhận điểm rèn luyện?",
+        "output": "Form chứng nhận điểm rèn luyện có thể được điền trực tuyến thông qua liên kết https://forms.office.com/Pages/ResponsePage.aspx?id=1HwSQPNFo0mwXTFaQ6nwM35NluEoXbZIssP2uQG4klxUMjE2ME00M0I3RzlMRDJFWUlOQlNFNVpIRC4u."
+    },
+    {
+        "input": "Quý quân của cuộc thi Học thuật Thách Thức năm 2024 là đội nào?",
+        "output": "Quý quân của cuộc thi Học thuật Thách Thức năm 2024 là đội 5CLCsCan."
+    },
+    {
+        "input": "Ai giữ chức Giám đốc bộ môn Thị giác máy tính và điều khiển học thông minh?",
+        "output": "Giám đốc bộ môn Thị giác máy tính và điều khiển học thông minh là Phó giáo sư, Tiến sĩ Lý Quốc Ngọc. Ông là người đứng đầu bộ môn này trong khuôn khổ Khoa Công nghệ thông tin."
+    }
+]
